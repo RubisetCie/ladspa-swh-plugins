@@ -1,11 +1,9 @@
-AC_INIT([swh-plugins], [0.4.17])
+AC_INIT([swh-plugins],[0.4.17])
 AC_CONFIG_SRCDIR([amp_1181.xml])
-AC_CANONICAL_SYSTEM
+AC_CANONICAL_TARGET
 AC_CONFIG_MACRO_DIRS([m4])
 AC_CONFIG_HEADERS(config.h)
 AM_INIT_AUTOMAKE
-
-AM_DISABLE_STATIC
 
 dnl @synopsis AC_C99_FUNC_LRINTF
 dnl
@@ -25,14 +23,14 @@ AC_DEFUN([AC_C99_FUNC_LRINTF],
 [
 lrintf_save_CFLAGS=$CFLAGS
 CFLAGS="-O3 -lm"
-AC_TRY_LINK([
+AC_LINK_IFELSE([AC_LANG_PROGRAM([[
 #define		_ISOC9X_SOURCE	1
 #define 	_ISOC99_SOURCE	1
 #define		__USE_ISOC99	1
 #define 	__USE_ISOC9X	1
 
 #include <math.h>
-], if (!lrintf(3.14159)) lrintf(2.7183);, ac_cv_c99_lrintf=yes, ac_cv_c99_lrintf=no)
+]], [[if (!lrintf(3.14159)) lrintf(2.7183);]])],[ac_cv_c99_lrintf=yes],[ac_cv_c99_lrintf=no])
 
 CFLAGS=$lrintf_save_CFLAGS
 
@@ -46,10 +44,9 @@ fi
 
 AC_ENABLE_STATIC(no)
 AC_ENABLE_SHARED(yes)
-AC_LIBTOOL_DLOPEN
-AC_PROG_LIBTOOL
+LT_INIT([dlopen])
 
-AC_LANG_C
+AC_LANG([C])
 AC_PROG_CC
 AM_PROG_CC_C_O
 AC_REQUIRE_CPP
@@ -124,8 +121,7 @@ else
   dnl CFLAGS="$CFLAGS -Wall -g -ffast-math -fPIC -DPIC"
 fi
 
-AC_PROG_LD
-AM_PROG_LIBTOOL
+LT_PATH_LD
 
 dnl Set PACKAGE_LOCALE_DIR in config.h.
 if test "x${prefix}" = xNONE; then
@@ -152,7 +148,7 @@ AC_SUBST(FFTW_LIBS)
 AC_SUBST(STATIC_FFTW_LIBS)
 AC_SUBST(FFTW_CFLAGS)
 AC_SUBST(LIBTOOL)
-AC_OUTPUT([
+AC_CONFIG_FILES([
 Makefile
 util/Makefile
 gsm/Makefile
@@ -160,3 +156,4 @@ gverb/Makefile
 metadata/Makefile
 po/Makefile.in
 ])
+AC_OUTPUT
