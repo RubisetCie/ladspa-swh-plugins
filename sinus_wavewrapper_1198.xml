@@ -9,7 +9,7 @@
 	</global>
 
 	<plugin label="sinusWavewrapper" id="1198" class="WaveshaperPlugin">
-		<name>Sinus wavewrapper</name>
+		<name>Sinus Wave-Wrapper</name>
                 <p>Produces an unusual distortion effect, for a more amp like tone, see the valve saturation plugin (section \ref{valve}).</p>
 
 		<callback event="run"><![CDATA[
@@ -26,7 +26,7 @@
 		]]></callback>
 
 		<port label="wrap" dir="input" type="control" hint="default_0">
-			<name>Wrap degree</name>
+			<name>Wrap Degree</name>
 			<range min="0" max="10"/>
 		</port>
 

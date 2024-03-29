@@ -20,7 +20,7 @@
   </global>
 
   <plugin label="gsm" id="1215" class="DistortionPlugin">
-    <name>GSM simulator</name>
+    <name>GSM Simulator</name>
     <p>Encodes and decodes a signal using the GSM voice compression system. Has the effect of making the signal sound like it is being sent over a European mobile phone network.</p>
 
     <callback event="instantiate"><![CDATA[
@@ -115,19 +115,19 @@
     ]]></callback>
 
     <port label="drywet" dir="input" type="control" hint="default_1">
-      <name>Dry/wet mix</name>
+      <name>Dry/Wet Mix</name>
       <range min="0" max="1"/>
       <p>Controls the dry/wet mix, 0 will give you the dry signal (but with the appropriate amount of delay), 1 will give you a totally wet signal.</p>
     </port>
 
     <port label="passes" dir="input" type="control" hint="integer,default_1">
-      <name>Number of passes</name>
+      <name>Number of Passes</name>
       <range min="0" max="10"/>
       <p>The number of times the signal is sent through the encode/decode process. Increases the CPU consumption almost linearly, and it will become more peaky so less friendly to realtime processing.</p>
     </port>
 
     <port label="error" dir="input" type="control" hint="default_0">
-      <name>Error rate (bits/block)</name>
+      <name>Error Rate (bits/block)</name>
       <range min="0" max="30"/>
       <p>The number of simulated bits that get changed during the transmission process.</p>
       <p>I really wanted to reduce the bandwidth to get that "shouting down a drainpipe" effect, but I'm not sure how the reduced bandwidth is dealt with by real phones. I suspect it's heavily patented technology.</p>
@@ -142,7 +142,7 @@
     </port>
 
     <port label="latency" dir="output" type="control">
-      <name>latency</name>
+      <name>Latency</name>
     </port>
 
     <instance-data label="count" type="int" />

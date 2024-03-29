@@ -16,7 +16,7 @@
   </global>
 
   <plugin label="djFlanger" id="1438" class="FlangerPlugin">
-    <name>DJ flanger</name>
+    <name>DJ Flanger</name>
     <p>This is a flanger which is more or less typical of DJ mixing desks. Requested by Patrick Shirkey.</p>
 
     <callback event="instantiate"><![CDATA[
@@ -104,18 +104,18 @@
     ]]></callback>
 
     <port label="sync" dir="input" type="control" hint="default_0,toggled">
-      <name>LFO sync</name>
+      <name>LFO Sync</name>
       <p>When turned from off to on it resets the phase of the LFO back to the start of the cycle. Used to sync the LFO to the track.</p>
     </port>
 
     <port label="period" dir="input" type="control" hint="default_1">
-      <name>LFO period (s)</name>
+      <name>LFO Period (s)</name>
       <p>The cycle period of the LFO in seconds.</p>
       <range min="0.1" max="32.0"/>
     </port>
 
     <port label="depth" dir="input" type="control" hint="default_high">
-      <name>LFO depth (ms)</name>
+      <name>LFO Depth (ms)</name>
       <p>The maximum delay the LFO will use to flange, in milliseconds.</p>
       <range min="1" max="5"/>
     </port>

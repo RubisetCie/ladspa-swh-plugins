@@ -13,7 +13,7 @@
   </global>
 
   <plugin label="freqTracker" id="1418" class="FrequencyMeterPlugin">
-    <name>Frequency tracker</name>
+    <name>Frequency Tracker</name>
 
     <callback event="instantiate"><![CDATA[
       fs = s_rate;
@@ -57,7 +57,7 @@
     ]]></callback>
 
     <port label="speed" dir="input" type="control" hint="default_middle">
-      <name>Tracking speed</name>
+      <name>Tracking Speed</name>
       <p>This controls the level of damping applied to the output.</p>
       <p>High values will make the frequency output jump around, low values will make it a bit slow to respond.</p>
       <range min="0" max="1"/>

@@ -49,7 +49,7 @@ static float xcoeffs[] = {
   </global>
 
   <plugin label="bodeShifterCV" id="1432" class="SpectralPlugin">
-    <name>Bode frequency shifter (CV)</name>
+    <name>Bode Frequency Shifter (CV)</name>
     <p>See the non CV version for information.</p>
     <p>This is more or less a copy of the Doepfer A126, \url{http://www.doepfer.de/a126.htm}.</p>
 
@@ -134,7 +134,7 @@ static float xcoeffs[] = {
     ]]></callback>
 
     <port label="shift_b" dir="input" type="control" hint="default_0">
-      <name>Base shift</name>
+      <name>Base Shift</name>
       <range min="0" max="5000"/>
     </port>
 
@@ -159,19 +159,19 @@ static float xcoeffs[] = {
     </port>
 
     <port label="dout" dir="output" type="audio">
-      <name>Down out</name>
+      <name>Down Out</name>
     </port>
 
     <port label="uout" dir="output" type="audio">
-      <name>Up out</name>
+      <name>Up Out</name>
     </port>
 
     <port label="mixout" dir="output" type="audio">
-      <name>Mix out</name>
+      <name>Mix Out</name>
     </port>
 
     <port label="latency" dir="output" type="control">
-      <name>latency</name>
+      <name>Latency</name>
     </port>
 
     <instance-data label="delay" type="LADSPA_Data *" />

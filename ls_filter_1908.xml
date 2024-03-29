@@ -43,13 +43,13 @@
     ]]></callback>
 
     <port label="type" dir="input" type="control" hint="default_0, integer">
-      <name>Filter type (0=LP, 1=BP, 2=HP)</name>
+      <name>Filter Type (0=LP, 1=BP, 2=HP)</name>
       <p>The type of the filter, 0 for low pass, 1 for band pass, 2 for high pass.</p>
       <range min="0" max="2"/>
     </port>
 
     <port label="cutoff" dir="input" type="control" hint="default_middle, logarithmic, sample_rate">
-      <name>Cutoff frequency (Hz)</name>
+      <name>Cutoff Frequency (Hz)</name>
       <p>Controls the frequency at which the filter starts to effect the audio signal.</p>
       <p>eg. a lowpass filter with a cutoff frequency of 1000 Hz will only let frequencies below 1000 Hz through.</p>
       <range min="0.002" max="0.5"/>

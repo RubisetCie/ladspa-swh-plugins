@@ -10,7 +10,7 @@
   </global>
 
   <plugin label="foldover" id="1213" class="DistortionPlugin">
-    <name>Foldover distortion</name>
+    <name>Foldover Distortion</name>
     <p>Uses a sinwave approximation to simulate valve style foldover distortion.</p>
     <p>Probably should have a DC offset remover on the output, but it's not always necessary.</p>
 

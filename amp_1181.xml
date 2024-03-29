@@ -13,7 +13,7 @@
   </global>
 
   <plugin label="amp" id="1181" class="AmplifierPlugin">
-    <name>Simple amplifier</name>
+    <name>Simple Amplifier</name>
 
     <callback event="run"><![CDATA[
       unsigned long pos;
@@ -25,7 +25,7 @@
     ]]></callback>
 
     <port label="gain" dir="input" type="control" hint="default_0">
-      <name>Amps gain (dB)</name>
+      <name>Amps Gain (dB)</name>
       <p>Controls the gain of the input signal in dB's.</p>
       <range min="-70" max="+70"/>
     </port>

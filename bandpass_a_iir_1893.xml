@@ -9,14 +9,12 @@
 		<code>
 			#include "config.h"
 			#include "util/iir.h"
-                        
 		</code>
 	</global>
 
 	<plugin label="bandpass_a_iir" id="1893" class="BandpassPlugin">
-		<name>Glame Bandpass Analog Filter</name>
-                <p> IIR bandpass filter modeled after an analog circuit. This filter was ported from the glame multitrack editor to ladspa.
-                </p>
+		<name>Glame Band-Pass Analog Filter</name>
+                <p>IIR bandpass filter modeled after an analog circuit. This filter was ported from the glame multitrack editor to ladspa.</p>
 
                 <callback event="instantiate">
                   sample_rate = s_rate;
@@ -57,10 +55,8 @@
 		<port label="output" dir="output" type="audio">
 			<name>Output</name>
 		</port>
-            
                 <instance-data label="iirf" type="iirf_t*"/>
                 <instance-data label="gt" type="iir_stage_t*"/>  
                 <instance-data label="sample_rate" type="long"/>           
-
 	</plugin>
 </ladspa>

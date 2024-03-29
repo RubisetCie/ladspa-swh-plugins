@@ -16,7 +16,7 @@
 	</global>
 
 	<plugin label="ringmod_2i1o" id="1188" class="ModulatorPlugin">
-		<name>Ringmod with two inputs</name>
+		<name>Ringmod (Two Inputs)</name>
 		<p>This is a simple 2 input ring modulator.</p>
 		<p>It is important that the modulator input is bounded to (-1, +1), otherwise you will get rubbish on the output.</p>
 
@@ -31,7 +31,7 @@
 		</callback>
 
 		<port label="depth" dir="input" type="control" hint="default_0">
-			<name>Modulation depth (0=none, 1=AM, 2=RM)</name>
+			<name>Modulation Depth (0=none, 1=AM, 2=RM)</name>
 			<range min="0" max="2"/>
 		</port>
 
@@ -52,7 +52,7 @@
 	</plugin>
 
 	<plugin label="ringmod_1i1o1l" id="1189" class="ModulatorPlugin">
-		<name>Ringmod with LFO</name>
+		<name>Ringmod (LFO)</name>
 		<p>This is a simple ring modulator and LFO.</p>
 
 		<callback event="instantiate">
@@ -129,7 +129,7 @@
 		</callback>
 
 		<port label="depthp" dir="input" type="control" hint="default_0">
-			<name>Modulation depth (0=none, 1=AM, 2=RM)</name>
+			<name>Modulation Depth (0=none, 1=AM, 2=RM)</name>
 			<range min="0" max="2"/>
 		</port>
 
@@ -139,22 +139,22 @@
 		</port>
 
 		<port label="sin" dir="input" type="control" hint="default_1">
-			<name>Sine level</name>
+			<name>Sine Level</name>
 			<range min="-1" max="+1"/>
 		</port>
 
 		<port label="tri" dir="input" type="control" hint="default_0">
-			<name>Triangle level</name>
+			<name>Triangle Level</name>
 			<range min="-1" max="+1"/>
 		</port>
 
 		<port label="saw" dir="input" type="control" hint="default_0">
-			<name>Sawtooth level</name>
+			<name>Sawtooth Level</name>
 			<range min="-1" max="+1"/>
 		</port>
 
 		<port label="squ" dir="input" type="control" hint="default_0">
-			<name>Square level</name>
+			<name>Square Level</name>
 			<range min="-1" max="+1"/>
 		</port>
 

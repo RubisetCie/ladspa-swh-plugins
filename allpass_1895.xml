@@ -37,7 +37,7 @@
   <!-- ******   ALLPASS-N   ****** -->
 
   <plugin label="allpass_n" id="1895" class="DelayPlugin">
-    <name>Allpass delay line, noninterpolating</name>
+    <name>All-Pass Delay Line, Non-Interpolating</name>
     <p>Based on work by James McCartney in SuperCollider.</p>
     
     <callback event="instantiate"><![CDATA[
@@ -228,7 +228,7 @@
   <!-- ******   ALLPASS-L   ****** -->
 
   <plugin label="allpass_l" id="1896" class="DelayPlugin">
-    <name>Allpass delay line, linear interpolation</name>
+    <name>All-Pass Delay Line, Linear Interpolation</name>
     <p>Based on work by James McCartney in SuperCollider.</p>
     
     <callback event="instantiate"><![CDATA[
@@ -376,7 +376,7 @@
   <!-- ******   ALLPASS-C   ****** -->
 
   <plugin label="allpass_c" id="1897" class="DelayPlugin">
-    <name>Allpass delay line, cubic spline interpolation</name>
+    <name>All-Pass Delay Line, Cubic Spline Interpolation</name>
     <p>Based on work by James McCartney in SuperCollider.</p>
     
     <callback event="instantiate"><![CDATA[

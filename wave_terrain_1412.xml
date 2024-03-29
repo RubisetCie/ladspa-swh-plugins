@@ -26,15 +26,15 @@
     ]]></callback>
 
     <port label="xb" dir="input" type="audio" hint="default_0">
-      <name>x</name>
+      <name>X</name>
     </port>
 
     <port label="yb" dir="input" type="audio" hint="default_0">
-      <name>y</name>
+      <name>Y</name>
     </port>
 
     <port label="zb" dir="output" type="audio">
-      <name>z</name>
+      <name>Z</name>
     </port>
   </plugin>
 </ladspa>

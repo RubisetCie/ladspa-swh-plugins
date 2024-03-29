@@ -9,14 +9,13 @@
 		<code>
 			#include "config.h"
 			#include "util/iir.h"
-                        #include "util/buffer.h"
+            #include "util/buffer.h"
 		</code>
 	</global>
 
 	<plugin label="bwxover_iir" id="1902" class="BandpassPlugin">
-		<name>Glame Butterworth X-over Filter</name>
-                <p> Butterworth X-over filter
-                </p>
+		<name>Glame Butterworth X-Over Filter</name>
+                <p>Butterworth X-Over filter</p>
 
                 <callback event="instantiate">
                   sample_rate = s_rate;
@@ -72,9 +71,8 @@
 	</plugin>
 
         <plugin label="buttlow_iir" id="1903" class="LowpassPlugin">
-		<name>GLAME Butterworth Lowpass</name>
-                <p> Butterworth lowpass filter
-                </p>
+		<name>Glame Butterworth Low-Pass</name>
+                <p>Butterworth Low-Pass Filter</p>
 
                 <callback event="instantiate">
                   sample_rate = s_rate;
@@ -125,9 +123,8 @@
 	</plugin>
 
         <plugin label="butthigh_iir" id="1904" class="HighpassPlugin">
-		<name>GLAME Butterworth Highpass</name>
-                <p> Butterworth highpass filter
-                </p>
+		<name>Glame Butterworth High-Pass</name>
+                <p>Butterworth High-Pass Filter</p>
 
                 <callback event="instantiate">
                   sample_rate = s_rate;
@@ -170,11 +167,9 @@
 		<port label="output" dir="output" type="audio">
 			<name>Output</name>
 		</port>
-		
                 <instance-data label="iirf" type="iirf_t*"/>
                 <instance-data label="gt" type="iir_stage_t*"/>  
                 <instance-data label="sample_rate" type="long"/>           
-
 	</plugin>
   
 </ladspa>

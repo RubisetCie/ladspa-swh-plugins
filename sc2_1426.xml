@@ -89,19 +89,19 @@
     ]]></callback>
 
     <port label="attack" dir="input" type="control" hint="default_low">
-      <name>Attack time (ms)</name>
+      <name>Attack Time (ms)</name>
       <p>The attack time in milliseconds.</p>
       <range min="2" max="400"/>
     </port>
 
     <port label="release" dir="input" type="control" hint="default_middle">
-      <name>Release time (ms)</name>
+      <name>Release Time (ms)</name>
       <p>The release time in milliseconds.</p>
       <range min="2" max="800"/>
     </port>
 
     <port label="threshold" dir="input" type="control" hint="default_maximum">
-      <name>Threshold level (dB)</name>
+      <name>Threshold Level (dB)</name>
       <p>The point at which the compressor will start to kick in.</p>
       <range min="-30" max="0"/>
     </port>
@@ -113,19 +113,19 @@
     </port>
 
     <port label="knee" dir="input" type="control" hint="default_low">
-      <name>Knee radius (dB)</name>
+      <name>Knee Radius (dB)</name>
       <p>The distance from the threshold where the knee curve starts.</p>
       <range min="1" max="10"/>
     </port>
 
     <port label="makeup_gain" dir="input" type="control" hint="default_0">
-      <name>Makeup gain (dB)</name>
+      <name>Makeup Gain (dB)</name>
       <p>Controls the gain of the makeup input signal in dB's.</p>
       <range min="0" max="+24"/>
     </port>
 
     <port label="sidechain" dir="input" type="audio">
-      <name>Sidechain</name>
+      <name>Side-chain</name>
     </port>
 
     <port label="input" dir="input" type="audio">

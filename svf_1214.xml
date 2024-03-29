@@ -125,13 +125,13 @@ for (pos = 0; pos < sample_count; pos++) {
 		</port>
 
 		<port label="filt_type" dir="input" type="control" hint="integer,default_0">
-			<name>Filter type (0=none, 1=LP, 2=HP, 3=BP, 4=BR, 5=AP)</name>
+			<name>Filter Type (0=none, 1=LP, 2=HP, 3=BP, 4=BR, 5=AP)</name>
 			<range min="0" max="5"/>
 			<p>Select between no filtering, low-pass, high-pass, band-pass, band-reject and all-pass.</p>
 		</port>
 
 		<port label="filt_freq" dir="input" type="control" hint="default_440">
-			<name>Filter freq</name>
+			<name>Filter Freq</name>
 			<range min="0" max="6000"/>
 			<p>Cutoff frequency, beware of high values with low sample rates.</p>
 		</port>
@@ -143,7 +143,7 @@ for (pos = 0; pos < sample_count; pos++) {
 		</port>
 
 		<port label="filt_res" dir="input" type="control" hint="default_0">
-			<name>Filter resonance</name>
+			<name>Filter Resonance</name>
 			<range min="0" max="1"/>
 			<p>The filter's resonance, sort of separate from Q but very related (implemented with feedback).</p>
 			<p>Do not use with the bandpass mode.</p>

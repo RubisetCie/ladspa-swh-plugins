@@ -73,13 +73,13 @@ distortion.</p>
     ]]></callback>
 
     <port label="env_time_p" dir="input" type="control" hint="default_maximum">
-      <name>Decay time (samples)</name>
+      <name>Decay Time (samples)</name>
       <p>Controls the envelope decay time.</p>
       <range min="2" max="30"/>
     </port>
 
     <port label="knee_point" dir="input" type="control" hint="default_0">
-      <name>Knee point (dB)</name>
+      <name>Knee Point (dB)</name>
       <p>Controls the knee roll-off point, ie. the point above which the compression kicks in. 0 will have no effect, -90 will remove virtually all dynamic range.</p>
       <range min="-90" max="0"/>
     </port>

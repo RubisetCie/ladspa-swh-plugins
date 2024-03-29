@@ -19,7 +19,7 @@
   </global>
 
   <plugin label="dj_eq_mono" id="1907" class="EQPlugin">
-    <name>DJ EQ (mono)</name>
+    <name>DJ Equalizer (Mono)</name>
     <p>The design for this plugin is taken from the Allen \&amp; Heath Xone 32
 DJ mixer. It was suggested by Patrick Shirkey. Mono version requested by Adam King</p>
 
@@ -61,19 +61,19 @@ filters = calloc(BANDS, sizeof(biquad));
     ]]></callback>
 
     <port label="lo" dir="input" type="control" hint="default_0">
-      <name>Lo gain (dB)</name>
+      <name>Low Gain (dB)</name>
       <p>Controls the gain of the low (100Hz) peak/dip band</p>
       <range min="-70" max="+6"/>
     </port>
 
     <port label="mid" dir="input" type="control" hint="default_0">
-      <name>Mid gain (dB)</name>
+      <name>Mid Gain (dB)</name>
       <p>Controls the gain of the mid (1000Hz) peak/dip band</p>
       <range min="-70" max="+6"/>
     </port>
 
     <port label="hi" dir="input" type="control" hint="default_0">
-      <name>Hi gain (dB)</name>
+      <name>High Gain (dB)</name>
       <p>Controls the gain of the high (10000Hz) shelf band</p>
       <range min="-70" max="+6"/>
     </port>
@@ -87,7 +87,7 @@ filters = calloc(BANDS, sizeof(biquad));
     </port>
 
     <port label="latency" dir="output" type="control">
-      <name>latency</name>
+      <name>Latency</name>
     </port>
 
     <instance-data label="fs" type="float"/>
@@ -95,7 +95,7 @@ filters = calloc(BANDS, sizeof(biquad));
   </plugin>
 
   <plugin label="dj_eq" id="1901" class="EQPlugin">
-    <name>DJ EQ</name>
+    <name>DJ Equalizer</name>
     <p>The design for this plugin is taken from the Allen \&amp; Heath Xone 32
 DJ mixer. It was suggested by Patrick Shirkey.</p>
 
@@ -149,19 +149,19 @@ filters = calloc(BANDS * 2, sizeof(biquad));
     ]]></callback>
 
     <port label="lo" dir="input" type="control" hint="default_0">
-      <name>Lo gain (dB)</name>
+      <name>Low Gain (dB)</name>
       <p>Controls the gain of the low (100Hz) peak/dip band</p>
       <range min="-70" max="+6"/>
     </port>
 
     <port label="mid" dir="input" type="control" hint="default_0">
-      <name>Mid gain (dB)</name>
+      <name>Mid Gain (dB)</name>
       <p>Controls the gain of the mid (1000Hz) peak/dip band</p>
       <range min="-70" max="+6"/>
     </port>
 
     <port label="hi" dir="input" type="control" hint="default_0">
-      <name>Hi gain (dB)</name>
+      <name>High Gain (dB)</name>
       <p>Controls the gain of the high (10000Hz) shelf band</p>
       <range min="-70" max="+6"/>
     </port>
@@ -182,7 +182,7 @@ filters = calloc(BANDS * 2, sizeof(biquad));
     </port>
 
     <port label="latency" dir="output" type="control">
-      <name>latency</name>
+      <name>Latency</name>
     </port>
 
     <instance-data label="fs" type="float"/>

@@ -133,37 +133,37 @@
     ]]></callback>
 
     <port label="ldel" dir="input" type="control" hint="default_low">
-      <name>L delay (ms)</name>
+      <name>L Delay (ms)</name>
       <p>The delay of the left output in milliseconds.</p>
       <range min="0" max="2700"/>
     </port>
 
     <port label="llev" dir="input" type="control" hint="default_middle">
-      <name>L level</name>
+      <name>L Level</name>
       <p>The level of the left output.</p>
       <range min="0" max="50"/>
     </port>
 
     <port label="cdel" dir="input" type="control" hint="default_low">
-      <name>C delay (ms)</name>
+      <name>C Delay (ms)</name>
       <p>The delay of the centre output in milliseconds.</p>
       <range min="0" max="2700"/>
     </port>
 
     <port label="clev" dir="input" type="control" hint="default_middle">
-      <name>C level</name>
+      <name>C Level</name>
       <p>The level of the centre output.</p>
       <range min="0" max="50"/>
     </port>
 
     <port label="rdel" dir="input" type="control" hint="default_low">
-      <name>R delay (ms)</name>
+      <name>R Delay (ms)</name>
       <p>The delay of the right output in milliseconds.</p>
       <range min="0" max="2700"/>
     </port>
 
     <port label="rlev" dir="input" type="control" hint="default_middle">
-      <name>R level</name>
+      <name>R Level</name>
       <p>The level of the right output.</p>
       <range min="0" max="50"/>
     </port>
@@ -175,13 +175,13 @@
     </port>
 
     <port label="high_d" dir="input" type="control" hint="default_middle">
-      <name>High damp (%)</name>
+      <name>High Damp (%)</name>
       <p>The damping of the high frequencies in the feedback path.</p>
       <range min="0" max="100"/>
     </port>
 
     <port label="low_d" dir="input" type="control" hint="default_middle">
-      <name>Low damp (%)</name>
+      <name>Low Damp (%)</name>
       <p>The damping of the low frequencies in the feedback path.</p>
       <range min="0" max="100"/>
     </port>
@@ -193,25 +193,25 @@
     </port>
 
     <port label="wet" dir="input" type="control" hint="default_0">
-      <name>Dry/Wet level</name>
+      <name>Dry/Wet Level</name>
       <p>The amounts of the input and effect mixed to produce the output.</p>
       <range min="0" max="1"/>
     </port>
 
     <port label="in_l" dir="input" type="audio">
-      <name>L input</name>
+      <name>L Input</name>
     </port>
 
     <port label="in_r" dir="input" type="audio">
-      <name>R input</name>
+      <name>R Input</name>
     </port>
 
     <port label="out_l" dir="output" type="audio">
-      <name>L output</name>
+      <name>L Output</name>
     </port>
 
     <port label="out_r" dir="output" type="audio">
-      <name>R output</name>
+      <name>R Output</name>
     </port>
 
     <instance-data label="buffer" type="LADSPA_Data *" />

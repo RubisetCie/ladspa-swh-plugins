@@ -22,7 +22,7 @@
   </global>
 
   <plugin label="amPitchshift" id="1433" class="PitchPlugin">
-    <name>AM pitchshifter</name>
+    <name>AM Pitch-Shifter</name>
     <p>This plugin works by running a single write pointer (monotonic) and two read pointers (pitchscaled) over a ringbuffer.</p>
     <p>The output is faded between the two readpointers according to the sine of the distance from the write pointer. The design is based on the mechanism of a mechanical pitchshifter I saw in the Gemeentemuseum in Den Haag, though I'm sure it is a common enough algorithm.</p>
 
@@ -136,19 +136,19 @@
     </port>
 
     <port label="pitch" dir="input" type="control" hint="logarithmic,default_1">
-      <name>Pitch shift (Frequency)</name>
+      <name>Pitch Shift (Frequency)</name>
       <p>The multiple of the output pitch, eg. 2.0 will increase the pitch by one octave.</p>
       <range min="0.25" max="4.0"/>
     </port>
 
     <port label="cents" dir="input" type="control" hint="integer,default_0">
-      <name>Pitch shift (Cents)</name>
+      <name>Pitch Shift (Cents)</name>
       <p>Pitch shift in cents. Overrides frequency control.</p>
       <range min="-100" max="100"/>
     </port>
 
     <port label="size" dir="input" type="control" hint="integer,default_middle">
-      <name>Buffer size</name>
+      <name>Buffer Size</name>
       <p>The order of magnitude of the buffer size. Small buffers will sound fluttery, large buffers will have flangy sounding echos.</p>
       <p>I recommend a buffer size of 3 for a reasonable compromise, with wideband material at around 48KHz. For drums you might have to lower it, and for voiced background noises it can go higher.</p>
       <range min="1" max="7"/>
@@ -163,7 +163,7 @@
     </port>
 
     <port label="latency" dir="output" type="control">
-      <name>latency</name>
+      <name>Latency</name>
     </port>
 
     <instance-data label="delay" type="LADSPA_Data *" />

@@ -20,8 +20,8 @@
 
 
   <plugin label="revdelay" id="1605" class="DelayPlugin">
-    <name>Reverse Delay (5s max)</name>
-     <p> A reverse delay not really modelled on any existing one.  You'll want to set
+    <name>Reverse Delay</name>
+     <p> A reverse delay not really modelled on any existing one (5s max). You'll want to set
          the Crossfade Samples parameter to something reasonably small (but more than 20)
          for most applications, but you can try larger values if you start getting clicking.
     </p>
@@ -169,7 +169,7 @@
     </port>
 
     <port label="xfade_samp" dir="input" type="control" hint="default_low,integer">
-      <name>Crossfade samples</name>
+      <name>Crossfade Samples</name>
       <range min="0" max="5000"/>
     </port>
 

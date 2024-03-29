@@ -15,7 +15,7 @@
 	</global>
 
 	<plugin label="pitchScaleHQ" id="1194" class="PitchPlugin">
-		<name>Higher Quality Pitch Scaler</name>
+		<name>Pitch Scaler (Higher Quality)</name>
                 <p>A pitch shifter implementation that scales the harmonics appropriately with the base frequencies. It is an implementation of Stephen M. Sprengler's pitch scaler design. It gives reasonable, general purpose results for small changes, but won't give Antares or Eventide anything to worry about.</p>
 		<p>The FFT block size and oversampling has been kept at reasonable levels to keep the CPU usage low, but it is smoother than the other Pitch Scaler.</p>
 
@@ -94,7 +94,7 @@
 		</port>
 
 		<port label="latency" dir="output" type="control">
-			<name>latency</name>
+			<name>Latency</name>
 		</port>
 
 		<instance-data label="buffers" type="sbuffers *"/>

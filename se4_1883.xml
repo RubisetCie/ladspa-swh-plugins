@@ -112,25 +112,25 @@
     ]]></callback>
 
     <port label="rms_peak" dir="input" type="control" hint="default_minimum">
-      <name>RMS/peak</name>
+      <name>RMS/Peak</name>
       <p>The balance between the RMS and peak envelope followers.</p>
       <range min="0" max="1"/>
     </port>
 
     <port label="attack" dir="input" type="control" hint="default_low">
-      <name>Attack time (ms)</name>
+      <name>Attack Time (ms)</name>
       <p>The attack time in milliseconds.</p>
       <range min="1.5" max="400"/>
     </port>
 
     <port label="release" dir="input" type="control" hint="default_middle">
-      <name>Release time (ms)</name>
+      <name>Release Time (ms)</name>
       <p>The release time in milliseconds.</p>
       <range min="2" max="800"/>
     </port>
 
     <port label="threshold" dir="input" type="control" hint="default_maximum">
-      <name>Threshold level (dB)</name>
+      <name>Threshold Level (dB)</name>
       <p>The point at which the expander will start to kick in.</p>
       <range min="-30" max="0"/>
     </port>
@@ -142,7 +142,7 @@
     </port>
 
     <port label="knee" dir="input" type="control" hint="default_low">
-      <name>Knee radius (dB)</name>
+      <name>Knee Radius (dB)</name>
       <p>The distance from the threshold where the knee curve starts.</p>
       <range min="1" max="10"/>
     </port>
@@ -160,25 +160,25 @@
     </port>
 
     <port label="gain_exp" dir="output" type="control">
-      <name>Gain expansion (dB)</name>
+      <name>Gain Expansion (dB)</name>
       <p>The degree of gain expansion applied to the input signal, in decibels.</p>
       <range min="0" max="+24"/>
     </port>
 
     <port label="left_in" dir="input" type="audio">
-      <name>Left input</name>
+      <name>Left Input</name>
     </port>
 
     <port label="right_in" dir="input" type="audio">
-      <name>Right input</name>
+      <name>Right Input</name>
     </port>
 
     <port label="left_out" dir="output" type="audio">
-      <name>Left output</name>
+      <name>Left Output</name>
     </port>
 
     <port label="right_out" dir="output" type="audio">
-      <name>Right output</name>
+      <name>Right Output</name>
     </port>
 
     <instance-data label="rms" type="rms_env *" />

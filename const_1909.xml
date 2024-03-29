@@ -32,7 +32,7 @@ signal. It has no real use other than for debugging and in modular synths.</p>
     ]]></callback>
 
     <port label="amplitude" dir="input" type="control" hint="default_0">
-      <name>Signal amplitude</name>
+      <name>Signal Amplitude</name>
       <p>Controls the amplitude of the output signal.</p>
       <range min="-1" max="1.1"/>
     </port>

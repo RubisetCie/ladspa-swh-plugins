@@ -9,7 +9,7 @@
 	</global>
 
 	<plugin label="shaper" id="1187" class="WaveshaperPlugin">
-		<name>Wave shaper</name>
+		<name>Wave Shaper</name>
 		<p>This plugin reshapes the wave by an exponential function, inspiration was taken from the Nord module of the same name.</p>
 		<p>If you are getting rubbish out then it's probably because the host isn't using the input/output range hints, which are very important for this plugin.</p>
 
@@ -35,7 +35,7 @@ for (pos = 0; pos < sample_count; pos++) {
 		]]></callback>
 
 		<port label="shapep" dir="input" type="control" hint="default_0">
-			<name>Waveshape</name>
+			<name>Wave Shape</name>
 			<p>Positive values have an expanding effect, and negative values have a compressing effect.</p>
 			<range min="-10" max="+10"/>
 		</port>

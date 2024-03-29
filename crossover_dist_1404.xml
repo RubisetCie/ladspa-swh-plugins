@@ -13,7 +13,7 @@
   </global>
 
   <plugin label="crossoverDist" id="1404" class="DistortionPlugin">
-    <name>Crossover distortion</name>
+    <name>Crossover Distortion</name>
     <p>This is a simulation of the distortion that happens in class B and AB power amps when the signal crosses 0.</p>
     <p>For class B simulations the smooth value should be set to about 0.3 +/- 0.2 and for AB it should be set to near 1.0.</p>
 
@@ -38,7 +38,7 @@
     ]]></callback>
 
     <port label="amp" dir="input" type="control" hint="default_minimum">
-      <name>Crossover amplitude</name>
+      <name>Crossover Amplitude</name>
       <p>Controls the point at which the output signal becomes linear.</p>
       <range min="0" max="0.1"/>
     </port>

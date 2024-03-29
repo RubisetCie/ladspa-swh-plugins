@@ -68,7 +68,7 @@
 		]]></callback>
 
 		<port label="freq" dir="input" type="control" hint="default_low">
-			<name>Band separation (Hz)</name>
+			<name>Band Separation (Hz)</name>
 			<range min="16" max="640"/>
 			<p>The distance between the frequency peaks.</p>
 		</port>

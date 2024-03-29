@@ -35,24 +35,24 @@ means that it is just the B input.</p>
     </port>
 
     <port label="inputLA" dir="input" type="audio">
-      <name>Input A left</name>
+      <name>Input A Left</name>
     </port>
     <port label="inputRA" dir="input" type="audio">
-      <name>Input A right</name>
+      <name>Input A Right</name>
     </port>
 
     <port label="inputLB" dir="input" type="audio">
-      <name>Input B left</name>
+      <name>Input B Left</name>
     </port>
     <port label="inputRB" dir="input" type="audio">
-      <name>Input B right</name>
+      <name>Input B Right</name>
     </port>
 
     <port label="outputL" dir="output" type="audio">
-      <name>Output left</name>
+      <name>Output Left</name>
     </port>
     <port label="outputR" dir="output" type="audio">
-      <name>Output right</name>
+      <name>Output Right</name>
     </port>
   </plugin>
 
@@ -81,31 +81,31 @@ means that it is just the B input.</p>
     </port>
 
     <port label="inputLA" dir="input" type="audio">
-      <name>Input A left</name>
+      <name>Input A Left</name>
     </port>
     <port label="inputRA" dir="input" type="audio">
-      <name>Input A right</name>
+      <name>Input A Right</name>
     </port>
 
     <port label="inputLB" dir="input" type="audio">
-      <name>Input B left</name>
+      <name>Input B Left</name>
     </port>
     <port label="inputRB" dir="input" type="audio">
-      <name>Input B right</name>
+      <name>Input B Right</name>
     </port>
 
     <port label="outputLA" dir="output" type="audio">
-      <name>Output A left</name>
+      <name>Output A Left</name>
     </port>
     <port label="outputRA" dir="output" type="audio">
-      <name>Output A right</name>
+      <name>Output A Right</name>
     </port>
 
     <port label="outputLB" dir="output" type="audio">
-      <name>Output B left</name>
+      <name>Output B Left</name>
     </port>
     <port label="outputRB" dir="output" type="audio">
-      <name>Output B right</name>
+      <name>Output B Right</name>
     </port>
   </plugin>
 </ladspa>

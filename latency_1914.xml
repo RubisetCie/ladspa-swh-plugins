@@ -13,7 +13,7 @@
   </global>
 
   <plugin label="artificialLatency" id="1914" class="UtilityPlugin">
-    <name>Artificial latency</name>
+    <name>Artificial Latency</name>
     <p>Reports its  delay value as systemic latency. Does nothing else, *this is not a delay*.</p>
     <p>Can be used to correct for latency between channels.</p>
 
@@ -47,7 +47,7 @@
     </port>
 
     <port label="latency" dir="output" type="control">
-      <name>latency</name>
+      <name>Latency</name>
     </port>
 
     <instance-data label="fs" type="float" />

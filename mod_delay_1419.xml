@@ -13,7 +13,7 @@
   </global>
 
   <plugin label="modDelay" id="1419" class="DelayPlugin">
-    <name>Modulatable delay</name>
+    <name>Modulable Delay</name>
     <p>A delay whose tap can be modulated at audio rate.</p>
     <p>Requested by Matthias Nagorni at LinuxTag 2002, in order to make a Leslie simulator.</p>
 
@@ -55,7 +55,7 @@
     ]]></callback>
 
     <port label="base" dir="input" type="control" hint="default_maximum">
-      <name>Base delay (s)</name>
+      <name>Base Delay (s)</name>
       <range min="0" max="1"/>
     </port>
 

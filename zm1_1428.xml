@@ -10,7 +10,7 @@
   </global>
 
   <plugin label="zm1" id="1428" class="UtilityPlugin">
-    <name>z-1</name>
+    <name>Z-1</name>
     <p>A plugin that implements the $z^{-1}$ function (a single sample delay).</p>
 
     <callback event="instantiate"><![CDATA[

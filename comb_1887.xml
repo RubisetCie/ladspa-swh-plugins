@@ -34,7 +34,7 @@
   <!-- ******   COMB-N   ****** -->
 
   <plugin label="comb_n" id="1889" class="DelayPlugin">
-    <name>Comb delay line, noninterpolating</name>
+    <name>Comb Delay Line, Non-Interpolating</name>
     <p>Based on work by James McCartney in SuperCollider.</p>
     
     <callback event="instantiate"><![CDATA[
@@ -222,7 +222,7 @@
   <!-- ******   COMB-L   ****** -->
 
   <plugin label="comb_l" id="1887" class="DelayPlugin">
-    <name>Comb delay line, linear interpolation</name>
+    <name>Comb Delay Line, Linear Interpolation</name>
     <p>Based on work by James McCartney in SuperCollider.</p>
     
     <callback event="instantiate"><![CDATA[
@@ -368,7 +368,7 @@
   <!-- ******   COMB-C   ****** -->
 
   <plugin label="comb_c" id="1888" class="DelayPlugin">
-    <name>Comb delay line, cubic spline interpolation</name>
+    <name>Comb Delay Line, Cubic Spline Interpolation</name>
     <p>Based on work by James McCartney in SuperCollider.</p>
     
     <callback event="instantiate"><![CDATA[

@@ -43,7 +43,7 @@ float bands[BANDS] =
 	</global>
 
 	<plugin label="mbeq" id="1197" class="MultiEQPlugin">
-		<name>Multiband EQ</name>
+		<name>Multi-Band Equalizer</name>
 		<p>This is a fairly typical multiband graphical equalizer. It's implemented using a FFT, so it takes quite a lot of CPU power, but should have less phase effects than an equivalent filter implementation.</p>
 		<p>If the input signal is at too low a sample rate then the top bands will be ignored, the highest useful band will always be a high shelf.</p>
 
@@ -209,77 +209,77 @@ plugin_data->fifo_pos = fifo_pos;
 		]]></callback>
 
 		<port label="band_1" dir="input" type="control" hint="default_0">
-			<name>50Hz gain (low shelving)</name>
+			<name>50Hz Gain (Low Shelving)</name>
 			<range min="-70" max="+30"/>
 		</port>
 
 		<port label="band_2" dir="input" type="control" hint="default_0">
-			<name>100Hz gain</name>
+			<name>100Hz Gain</name>
 			<range min="-70" max="+30"/>
 		</port>
 
 		<port label="band_3" dir="input" type="control" hint="default_0">
-			<name>156Hz gain</name>
+			<name>156Hz Gain</name>
 			<range min="-70" max="+30"/>
 		</port>
 
 		<port label="band_4" dir="input" type="control" hint="default_0">
-			<name>220Hz gain</name>
+			<name>220Hz Gain</name>
 			<range min="-70" max="+30"/>
 		</port>
 
 		<port label="band_5" dir="input" type="control" hint="default_0">
-			<name>311Hz gain</name>
+			<name>311Hz Gain</name>
 			<range min="-70" max="+30"/>
 		</port>
 
 		<port label="band_6" dir="input" type="control" hint="default_0">
-			<name>440Hz gain</name>
+			<name>440Hz Gain</name>
 			<range min="-70" max="+30"/>
 		</port>
 
 		<port label="band_7" dir="input" type="control" hint="default_0">
-			<name>622Hz gain</name>
+			<name>622Hz Gain</name>
 			<range min="-70" max="+30"/>
 		</port>
 
 		<port label="band_8" dir="input" type="control" hint="default_0">
-			<name>880Hz gain</name>
+			<name>880Hz Gain</name>
 			<range min="-70" max="+30"/>
 		</port>
 
 		<port label="band_9" dir="input" type="control" hint="default_0">
-			<name>1250Hz gain</name>
+			<name>1250Hz Gain</name>
 			<range min="-70" max="+30"/>
 		</port>
 
 		<port label="band_10" dir="input" type="control" hint="default_0">
-			<name>1750Hz gain</name>
+			<name>1750Hz Gain</name>
 			<range min="-70" max="+30"/>
 		</port>
 
 		<port label="band_11" dir="input" type="control" hint="default_0">
-			<name>2500Hz gain</name>
+			<name>2500Hz Gain</name>
 			<range min="-70" max="+30"/>
 		</port>
 
 		<port label="band_12" dir="input" type="control" hint="default_0">
-			<name>3500Hz gain</name>
+			<name>3500Hz Gain</name>
 			<range min="-70" max="+30"/>
 		</port>
 
                 <port label="band_13" dir="input" type="control" hint="default_0">
-                        <name>5000Hz gain</name>
+                        <name>5000Hz Gain</name>
                         <range min="-70" max="+30"/>
                 </port>
 
                 <port label="band_14" dir="input" type="control" hint="default_0">
-                        <name>10000Hz gain</name>
+                        <name>10000Hz Gain</name>
                         <range min="-70" max="+30"/>
                 </port>
 
                 <port label="band_15" dir="input" type="control" hint="default_0">
-                        <name>20000Hz gain</name>
+                        <name>20000Hz Gain</name>
                         <range min="-70" max="+30"/>
                 </port>
 
@@ -292,7 +292,7 @@ plugin_data->fifo_pos = fifo_pos;
 		</port>
 
 		<port label="latency" dir="output" type="control">
-			<name>latency</name>
+			<name>Latency</name>
 		</port>
 
 		<instance-data label="in_fifo" type="LADSPA_Data *"/>

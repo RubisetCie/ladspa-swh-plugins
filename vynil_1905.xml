@@ -31,7 +31,7 @@
   </global>
 
   <plugin label="vynil" id="1905" class="DistortionPlugin">
-    <name>VyNil (Vinyl Effect)</name>
+    <name>Vinyl Effect</name>
 
     <callback event="instantiate"><![CDATA[
       unsigned int i;
@@ -200,7 +200,7 @@
     </port>
 
     <port label="warp" dir="input" type="control" hint="default_0">
-      <name>Surface warping</name>
+      <name>Surface Warping</name>
       <p>The degree of variation in height of the record surface.</p>
       <range min="0.0" max="1.0"/>
     </port>

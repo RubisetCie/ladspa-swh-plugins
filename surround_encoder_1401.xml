@@ -46,7 +46,7 @@ static float xcoeffs[] = {
   </global>
 
   <plugin label="surroundEncoder" id="1401" class="UtilityPlugin">
-    <name>Surround matrix encoder</name>
+    <name>Surround Matrix Encoder</name>
     <p>I haven't been able to test this plugin, so there may be bugs. I have successfully tested the algorithm, but the implementation is suspect.</p>
     <p>\subsubsection{What does it do?}</p>
     <p>It allows you to encode four channels of sound into a stereo compatible stream that will be decoded by a Dolby\footnote{"Dolby" is a trademark of Dolby Laboratories.} Surround/Pro-Logic decoder into Left, Right, Center and Surround signals.</p>

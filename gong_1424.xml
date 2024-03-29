@@ -15,7 +15,7 @@
   </global>
 
   <plugin label="gong" id="1424" class="SimulatorPlugin,GeneratorPlugin">
-    <name>Gong model</name>
+    <name>Gong Model</name>
     <p>A physical model of a metal gong.</p>
     <p>Based on Josep Comajuncosas' gong explorer, which was built in Sync Modular, it uses 8 linear waveguides with nonlinear filters to model the gong surface.</p>
 
@@ -117,163 +117,163 @@
     ]]></callback>
 
     <port label="damp_i" dir="input" type="control" hint="default_middle">
-      <name>Inner damping</name>
+      <name>Inner Damping</name>
       <p>Controls the degree of damping in the centre of the gong.</p>
       <range min="0" max="1"/>
     </port>
 
     <port label="damp_o" dir="input" type="control" hint="default_middle">
-      <name>Outer damping</name>
+      <name>Outer Damping</name>
       <p>Controls the degree of damping on the edge of the gong.</p>
       <range min="0" max="1"/>
     </port>
 
     <port label="micpos" dir="input" type="control" hint="default_low">
-      <name>Mic position</name>
+      <name>Mic Position</name>
       <p>Controls the vertical position of the "microphone", 0 is the centre and 1 is the edge.</p>
       <range min="0" max="1"/>
     </port>
 
     <port label="scale0" dir="input" type="control" hint="default_middle">
-      <name>Inner size 1</name>
+      <name>Inner Size 1</name>
       <p>The size of the upper, inner waveguide.</p>
       <range min="0" max="1"/>
     </port>
 
     <port label="apa0" dir="input" type="control" hint="default_middle">
-      <name>Inner stiffness 1 +</name>
+      <name>Inner Stiffness 1 +</name>
       <p>The stiffness of the gong against deflections in the positive direction.</p>
       <range min="0" max="1"/>
     </port>
 
     <port label="apb0" dir="input" type="control" hint="default_middle">
-      <name>Inner stiffness 1 -</name>
+      <name>Inner Stiffness 1 -</name>
       <p>The stiffness of the gong against deflections in the negative direction.</p>
       <range min="0" max="1"/>
     </port>
 
     <port label="scale1" dir="input" type="control" hint="default_middle">
-      <name>Inner size 2</name>
+      <name>Inner Size 2</name>
       <p>The size of the right, inner waveguide.</p>
       <range min="0" max="1"/>
     </port>
 
     <port label="apa1" dir="input" type="control" hint="default_middle">
-      <name>Inner stiffness 2 +</name>
+      <name>Inner Stiffness 2 +</name>
       <p>The stiffness of the gong against deflections in the positive direction.</p>
       <range min="0" max="1"/>
     </port>
 
     <port label="apb1" dir="input" type="control" hint="default_middle">
-      <name>Inner stiffness 2 -</name>
+      <name>Inner Stiffness 2 -</name>
       <p>The stiffness of the gong against deflections in the negative direction.</p>
       <range min="0" max="1"/>
     </port>
 
     <port label="scale2" dir="input" type="control" hint="default_middle">
-      <name>Inner size 3</name>
+      <name>Inner Size 3</name>
       <p>The size of the lower, inner waveguide.</p>
       <range min="0" max="1"/>
     </port>
 
     <port label="apa2" dir="input" type="control" hint="default_middle">
-      <name>Inner stiffness 3 +</name>
+      <name>Inner Stiffness 3 +</name>
       <p>The stiffness of the gong against deflections in the positive direction.</p>
       <range min="0" max="1"/>
     </port>
 
     <port label="apb2" dir="input" type="control" hint="default_middle">
-      <name>Inner stiffness 3 -</name>
+      <name>Inner Stiffness 3 -</name>
       <p>The stiffness of the gong against deflections in the negative direction.</p>
       <range min="0" max="1"/>
     </port>
 
     <port label="scale3" dir="input" type="control" hint="default_middle">
-      <name>Inner size 4</name>
+      <name>Inner Size 4</name>
       <p>The size of the left, inner waveguide.</p>
       <range min="0" max="1"/>
     </port>
 
     <port label="apa3" dir="input" type="control" hint="default_middle">
-      <name>Inner stiffness 4 +</name>
+      <name>Inner Stiffness 4 +</name>
       <p>The stiffness of the gong against deflections in the positive direction.</p>
       <range min="0" max="1"/>
     </port>
 
     <port label="apb3" dir="input" type="control" hint="default_middle">
-      <name>Inner stiffness 4 -</name>
+      <name>Inner Stiffness 4 -</name>
       <p>The stiffness of the gong against deflections in the negative direction.</p>
       <range min="0" max="1"/>
     </port>
 
     <port label="scale4" dir="input" type="control" hint="default_middle">
-      <name>Outer size 1</name>
+      <name>Outer Size 1</name>
       <p>The size of the upper right, outer waveguide.</p>
       <range min="0" max="1"/>
     </port>
 
     <port label="apa4" dir="input" type="control" hint="default_middle">
-      <name>Outer stiffness 1 +</name>
+      <name>Outer Stiffness 1 +</name>
       <p>The stiffness of the gong against deflections in the positive direction.</p>
       <range min="0" max="1"/>
     </port>
 
     <port label="apb4" dir="input" type="control" hint="default_middle">
-      <name>Outer stiffness 1 -</name>
+      <name>Outer Stiffness 1 -</name>
       <p>The stiffness of the gong against deflections in the negative direction.</p>
       <range min="0" max="1"/>
     </port>
 
     <port label="scale5" dir="input" type="control" hint="default_middle">
-      <name>Outer size 2</name>
+      <name>Outer Size 2</name>
       <p>The size of the lower right, outer waveguide.</p>
       <range min="0" max="1"/>
     </port>
 
     <port label="apa5" dir="input" type="control" hint="default_middle">
-      <name>Outer stiffness 2 +</name>
+      <name>Outer Stiffness 2 +</name>
       <p>The stiffness of the gong against deflections in the positive direction.</p>
       <range min="0" max="1"/>
     </port>
 
     <port label="apb5" dir="input" type="control" hint="default_middle">
-      <name>Outer stiffness 2 -</name>
+      <name>Outer Stiffness 2 -</name>
       <p>The stiffness of the gong against deflections in the negative direction.</p>
       <range min="0" max="1"/>
     </port>
 
     <port label="scale6" dir="input" type="control" hint="default_middle">
-      <name>Outer size 3</name>
+      <name>Outer Size 3</name>
       <p>The size of the lower left, outer waveguide.</p>
       <range min="0" max="1"/>
     </port>
 
     <port label="apa6" dir="input" type="control" hint="default_middle">
-      <name>Outer stiffness 3 +</name>
+      <name>Outer Stiffness 3 +</name>
       <p>The stiffness of the gong against deflections in the positive direction.</p>
       <range min="0" max="1"/>
     </port>
 
     <port label="apb6" dir="input" type="control" hint="default_middle">
-      <name>Outer stiffness 3 -</name>
+      <name>Outer Stiffness 3 -</name>
       <p>The stiffness of the gong against deflections in the negative direction.</p>
       <range min="0" max="1"/>
     </port>
 
     <port label="scale7" dir="input" type="control" hint="default_middle">
-      <name>Outer size 4</name>
+      <name>Outer Size 4</name>
       <p>The size of the upper left, outer waveguide.</p>
       <range min="0" max="1"/>
     </port>
 
     <port label="apa7" dir="input" type="control" hint="default_middle">
-      <name>Outer stiffness 4 +</name>
+      <name>Outer Stiffness 4 +</name>
       <p>The stiffness of the gong against deflections in the positive direction.</p>
       <range min="0" max="1"/>
     </port>
 
     <port label="apb7" dir="input" type="control" hint="default_middle">
-      <name>Outer stiffness 4 -</name>
+      <name>Outer Stiffness 4 -</name>
       <p>The stiffness of the gong against deflections in the negative direction.</p>
       <range min="0" max="1"/>
     </port>

@@ -49,7 +49,7 @@
   </global>
 
   <plugin label="chebstortion" id="1430" class="DistortionPlugin">
-    <name>Chebyshev distortion</name>
+    <name>Chebyshev Distortion</name>
     <p>This is an interesting distortion effect that is seeded from incoming
 signal envelope. As the level of the signal rises more and more harmonics will
 for added to the output signal.</p>

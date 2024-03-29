@@ -106,7 +106,7 @@
 		</port>
 
 		<port label="latency" dir="output" type="control">
-			<name>latency</name>
+			<name>Latency</name>
 		</port>
 
 		<instance-data label="buffers" type="sbuffers *"/>

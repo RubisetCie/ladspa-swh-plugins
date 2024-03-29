@@ -72,23 +72,23 @@ msgid "Output"
 msgstr ""
 
 #: amp_1181.xml:48
-msgid "Simple amplifier"
+msgid "Simple Amplifier"
 msgstr ""
 
 #: amp_1181.xml:73
-msgid "Amps gain (dB)"
+msgid "Amps Gain (dB)"
 msgstr ""
 
 #: am_pitchshift_1433.xml:132
-msgid "AM pitchshifter"
+msgid "AM Pitch-Shifter"
 msgstr ""
 
 #: am_pitchshift_1433.xml:157
-msgid "Pitch shift"
+msgid "Pitch Shift"
 msgstr ""
 
 #: am_pitchshift_1433.xml:167
-msgid "Buffer size"
+msgid "Buffer Size"
 msgstr ""
 
 #: analogue_osc_1416.xml:103
@@ -113,27 +113,27 @@ msgid "Instability"
 msgstr ""
 
 #: bode_shifter_1431.xml:158
-msgid "Bode frequency shifter"
+msgid "Bode Frequency Shifter"
 msgstr ""
 
 #: bode_shifter_1431.xml:183
-msgid "Frequency shift"
+msgid "Frequency Shift"
 msgstr ""
 
 #: bode_shifter_1431.xml:200 bode_shifter_cv_1432.xml:222
-msgid "Down out"
+msgid "Down Out"
 msgstr ""
 
 #: bode_shifter_1431.xml:207 bode_shifter_cv_1432.xml:229
-msgid "Up out"
+msgid "Up Out"
 msgstr ""
 
 #: bode_shifter_cv_1432.xml:150
-msgid "Bode frequency shifter (CV)"
+msgid "Bode Frequency Shifter (CV)"
 msgstr ""
 
 #: bode_shifter_cv_1432.xml:175
-msgid "Base shift"
+msgid "Base Shift"
 msgstr ""
 
 #: bode_shifter_cv_1432.xml:185
@@ -149,11 +149,11 @@ msgid "Shift CV"
 msgstr ""
 
 #: bode_shifter_cv_1432.xml:236
-msgid "Mix out"
+msgid "Mix Out"
 msgstr ""
 
 #: chebstortion_1430.xml:152
-msgid "Chebyshev distortion"
+msgid "Chebyshev Distortion"
 msgstr ""
 
 #: chebstortion_1430.xml:177 valve_rect_1405.xml:146
@@ -165,7 +165,7 @@ msgid "Comb Filter"
 msgstr ""
 
 #: comb_1190.xml:112 comb_splitter_1411.xml:116
-msgid "Band separation (Hz)"
+msgid "Band Separation (Hz)"
 msgstr ""
 
 #: comb_1190.xml:122 flanger_1191.xml:224 giant_flange_1437.xml:258
@@ -186,11 +186,11 @@ msgid "Output 2"
 msgstr ""
 
 #: crossover_dist_1404.xml:58
-msgid "Crossover distortion"
+msgid "Crossover Distortion"
 msgstr ""
 
 #: crossover_dist_1404.xml:83
-msgid "Crossover amplitude"
+msgid "Crossover Amplitude"
 msgstr ""
 
 #: crossover_dist_1404.xml:93 smooth_decimate_1414.xml:110
@@ -218,11 +218,11 @@ msgid "Decimator"
 msgstr ""
 
 #: decimator_1202.xml:107
-msgid "Bit depth"
+msgid "Bit Depth"
 msgstr ""
 
 #: decimator_1202.xml:117
-msgid "Sample rate (Hz)"
+msgid "Sample Rate (Hz)"
 msgstr ""
 
 #: declip_1195.xml:59
@@ -234,11 +234,11 @@ msgid "Delayorama"
 msgstr ""
 
 #: delayorama_1402.xml:245
-msgid "Random seed"
+msgid "Random Seed"
 msgstr ""
 
 #: delayorama_1402.xml:255 hermes_filter_1200.xml:621
-msgid "Input gain (dB)"
+msgid "Input Gain (dB)"
 msgstr ""
 
 #: delayorama_1402.xml:265 dj_flanger_1438.xml:179
@@ -246,35 +246,35 @@ msgid "Feedback (%)"
 msgstr ""
 
 #: delayorama_1402.xml:275
-msgid "Number of taps"
+msgid "Number of Taps"
 msgstr ""
 
 #: delayorama_1402.xml:285
-msgid "First delay (s)"
+msgid "First Delay (s)"
 msgstr ""
 
 #: delayorama_1402.xml:295
-msgid "Delay range (s)"
+msgid "Delay Range (s)"
 msgstr ""
 
 #: delayorama_1402.xml:305
-msgid "Delay change"
+msgid "Delay Change"
 msgstr ""
 
 #: delayorama_1402.xml:315
-msgid "Delay random (%)"
+msgid "Delay Random (%)"
 msgstr ""
 
 #: delayorama_1402.xml:325
-msgid "Amplitude change"
+msgid "Amplitude Change"
 msgstr ""
 
 #: delayorama_1402.xml:335
-msgid "Amplitude random (%)"
+msgid "Amplitude Random (%)"
 msgstr ""
 
 #: delayorama_1402.xml:345 gsm_1215.xml:164 plate_1423.xml:150
-msgid "Dry/wet mix"
+msgid "Dry/Wet Mix"
 msgstr ""
 
 #: diode_1185.xml:63
@@ -294,39 +294,39 @@ msgid "Denominator"
 msgstr ""
 
 #: dj_flanger_1438.xml:124
-msgid "DJ flanger"
+msgid "DJ Flanger"
 msgstr ""
 
 #: dj_flanger_1438.xml:149
-msgid "LFO sync"
+msgid "LFO Sync"
 msgstr ""
 
 #: dj_flanger_1438.xml:159
-msgid "LFO period (s)"
+msgid "LFO Period (s)"
 msgstr ""
 
 #: dj_flanger_1438.xml:169
-msgid "LFO depth (ms)"
+msgid "LFO Depth (ms)"
 msgstr ""
 
 #: dyson_compress_1403.xml:341
-msgid "Dyson compressor"
+msgid "Dyson Compressor"
 msgstr ""
 
 #: dyson_compress_1403.xml:366
-msgid "Peak limit (dB)"
+msgid "Peak Limit (dB)"
 msgstr ""
 
 #: dyson_compress_1403.xml:376
-msgid "Release time (s)"
+msgid "Release Time (s)"
 msgstr ""
 
 #: dyson_compress_1403.xml:386
-msgid "Fast compression ratio"
+msgid "Fast Compression Ratio"
 msgstr ""
 
 #: dyson_compress_1403.xml:396
-msgid "Compression ratio"
+msgid "Compression Ratio"
 msgstr ""
 
 #: fad_delay_1192.xml:109
@@ -346,15 +346,15 @@ msgid "Flanger"
 msgstr ""
 
 #: flanger_1191.xml:194 multivoice_chorus_1201.xml:231
-msgid "Delay base (ms)"
+msgid "Delay Base (ms)"
 msgstr ""
 
 #: flanger_1191.xml:204
-msgid "Max slowdown (ms)"
+msgid "Max Slowdown (ms)"
 msgstr ""
 
 #: flanger_1191.xml:214 multivoice_chorus_1201.xml:261
-msgid "LFO frequency (Hz)"
+msgid "LFO Frequency (Hz)"
 msgstr ""
 
 #: fm_osc_1415.xml:57
@@ -362,7 +362,7 @@ msgid "FM Oscillator"
 msgstr ""
 
 #: foldover_1213.xml:49
-msgid "Foldover distortion"
+msgid "Foldover Distortion"
 msgstr ""
 
 #: foldover_1213.xml:74
@@ -374,19 +374,19 @@ msgid "Skew"
 msgstr ""
 
 #: foverdrive_1196.xml:47
-msgid "Fast overdrive"
+msgid "Fast Overdrive"
 msgstr ""
 
 #: foverdrive_1196.xml:72
-msgid "Drive level"
+msgid "Drive Level"
 msgstr ""
 
 #: freq_tracker_1418.xml:76
-msgid "Frequency tracker"
+msgid "Frequency Tracker"
 msgstr ""
 
 #: freq_tracker_1418.xml:101
-msgid "Tracking speed"
+msgid "Tracking Speed"
 msgstr ""
 
 #: gate_1410.xml:143
@@ -394,15 +394,15 @@ msgid "Gate"
 msgstr ""
 
 #: gate_1410.xml:168
-msgid "LF key filter (Hz)"
+msgid "LF Key Filter (Hz)"
 msgstr ""
 
 #: gate_1410.xml:178
-msgid "HF key filter (Hz)"
+msgid "HF Key Filter (Hz)"
 msgstr ""
 
 #: gate_1921.xml:130
-msgid "Key level (dB)"
+msgid "Key Level (dB)"
 msgstr ""
 
 #: gate_1410.xml:188
@@ -426,7 +426,7 @@ msgid "Range (dB)"
 msgstr ""
 
 #: gate_1410.xml:238
-msgid "Output select (-1 = key listen, 0 = gate, 1 = bypass)"
+msgid "Output Select (-1 = key listen, 0 = gate, 1 = bypass)"
 msgstr ""
 
 #: gate_1921.xml:130
@@ -434,183 +434,183 @@ msgid "Gate Stereo"
 msgstr ""
 
 #: giant_flange_1437.xml:183
-msgid "Giant flange"
+msgid "Giant Flanger"
 msgstr ""
 
 #: giant_flange_1437.xml:208
-msgid "Double delay"
+msgid "Double Delay"
 msgstr ""
 
 #: giant_flange_1437.xml:218
-msgid "LFO frequency 1 (Hz)"
+msgid "LFO Frequency 1 (Hz)"
 msgstr ""
 
 #: giant_flange_1437.xml:228
-msgid "Delay 1 range (s)"
+msgid "Delay 1 Range (s)"
 msgstr ""
 
 #: giant_flange_1437.xml:238
-msgid "LFO frequency 2 (Hz)"
+msgid "LFO Frequency 2 (Hz)"
 msgstr ""
 
 #: giant_flange_1437.xml:248
-msgid "Delay 2 range (s)"
+msgid "Delay 2 Range (s)"
 msgstr ""
 
 #: giant_flange_1437.xml:268 lcr_delay_1436.xml:281
-msgid "Dry/Wet level"
+msgid "Dry/Wet Level"
 msgstr ""
 
 #: gong_1424.xml:130
-msgid "Gong model"
+msgid "Gong Model"
 msgstr ""
 
 #: gong_1424.xml:155
-msgid "Inner damping"
+msgid "Inner Damping"
 msgstr ""
 
 #: gong_1424.xml:165
-msgid "Outer damping"
+msgid "Outer Damping"
 msgstr ""
 
 #: gong_1424.xml:175
-msgid "Mic position"
+msgid "Mic Position"
 msgstr ""
 
 #: gong_1424.xml:185
-msgid "Inner size 1"
+msgid "Inner Size 1"
 msgstr ""
 
 #: gong_1424.xml:195
-msgid "Inner stiffness 1 +"
+msgid "Inner Stiffness 1 +"
 msgstr ""
 
 #: gong_1424.xml:205
-msgid "Inner stiffness 1 -"
+msgid "Inner Stiffness 1 -"
 msgstr ""
 
 #: gong_1424.xml:215
-msgid "Inner size 2"
+msgid "Inner Size 2"
 msgstr ""
 
 #: gong_1424.xml:225
-msgid "Inner stiffness 2 +"
+msgid "Inner Stiffness 2 +"
 msgstr ""
 
 #: gong_1424.xml:235
-msgid "Inner stiffness 2 -"
+msgid "Inner Stiffness 2 -"
 msgstr ""
 
 #: gong_1424.xml:245
-msgid "Inner size 3"
+msgid "Inner Size 3"
 msgstr ""
 
 #: gong_1424.xml:255
-msgid "Inner stiffness 3 +"
+msgid "Inner Stiffness 3 +"
 msgstr ""
 
 #: gong_1424.xml:265
-msgid "Inner stiffness 3 -"
+msgid "Inner Stiffness 3 -"
 msgstr ""
 
 #: gong_1424.xml:275
-msgid "Inner size 4"
+msgid "Inner Size 4"
 msgstr ""
 
 #: gong_1424.xml:285
-msgid "Inner stiffness 4 +"
+msgid "Inner Stiffness 4 +"
 msgstr ""
 
 #: gong_1424.xml:295
-msgid "Inner stiffness 4 -"
+msgid "Inner Stiffness 4 -"
 msgstr ""
 
 #: gong_1424.xml:305
-msgid "Outer size 1"
+msgid "Outer Size 1"
 msgstr ""
 
 #: gong_1424.xml:315
-msgid "Outer stiffness 1 +"
+msgid "Outer Stiffness 1 +"
 msgstr ""
 
 #: gong_1424.xml:325
-msgid "Outer stiffness 1 -"
+msgid "Outer Stiffness 1 -"
 msgstr ""
 
 #: gong_1424.xml:335
-msgid "Outer size 2"
+msgid "Outer Size 2"
 msgstr ""
 
 #: gong_1424.xml:345
-msgid "Outer stiffness 2 +"
+msgid "Outer Stiffness 2 +"
 msgstr ""
 
 #: gong_1424.xml:355
-msgid "Outer stiffness 2 -"
+msgid "Outer Stiffness 2 -"
 msgstr ""
 
 #: gong_1424.xml:365
-msgid "Outer size 3"
+msgid "Outer Size 3"
 msgstr ""
 
 #: gong_1424.xml:375
-msgid "Outer stiffness 3 +"
+msgid "Outer Stiffness 3 +"
 msgstr ""
 
 #: gong_1424.xml:385
-msgid "Outer stiffness 3 -"
+msgid "Outer Stiffness 3 -"
 msgstr ""
 
 #: gong_1424.xml:395
-msgid "Outer size 4"
+msgid "Outer Size 4"
 msgstr ""
 
 #: gong_1424.xml:405
-msgid "Outer stiffness 4 +"
+msgid "Outer Stiffness 4 +"
 msgstr ""
 
 #: gong_1424.xml:415
-msgid "Outer stiffness 4 -"
+msgid "Outer Stiffness 4 -"
 msgstr ""
 
 #: gong_beater_1439.xml:96
-msgid "Gong beater"
+msgid "Gong Beater"
 msgstr ""
 
 #: gong_beater_1439.xml:121
-msgid "Impulse gain (dB)"
+msgid "Impulse Gain (dB)"
 msgstr ""
 
 #: gong_beater_1439.xml:131
-msgid "Strike gain (dB)"
+msgid "Strike Gain (dB)"
 msgstr ""
 
 #: gong_beater_1439.xml:141
-msgid "Strike duration (s)"
+msgid "Strike Duration (s)"
 msgstr ""
 
 #: gsm_1215.xml:139
-msgid "GSM simulator"
+msgid "GSM Simulator"
 msgstr ""
 
 #: gsm_1215.xml:174
-msgid "Number of passes"
+msgid "Number of Passes"
 msgstr ""
 
 #: gsm_1215.xml:184
-msgid "Error rate (bits/block)"
+msgid "Error Rate (bits/block)"
 msgstr ""
 
 #: gverb_1216.xml:101
-msgid "GVerb"
+msgid "G-Verb"
 msgstr ""
 
 #: gverb_1216.xml:126
-msgid "Roomsize (m)"
+msgid "Room Size (m)"
 msgstr ""
 
 #: gverb_1216.xml:136
-msgid "Reverb time (s)"
+msgid "Reverb Time (s)"
 msgstr ""
 
 #: gverb_1216.xml:146 plate_1423.xml:140
@@ -618,27 +618,27 @@ msgid "Damping"
 msgstr ""
 
 #: gverb_1216.xml:156
-msgid "Input bandwidth"
+msgid "Input Bandwidth"
 msgstr ""
 
 #: gverb_1216.xml:166
-msgid "Dry signal level (dB)"
+msgid "Dry Signal Level (dB)"
 msgstr ""
 
 #: gverb_1216.xml:176
-msgid "Early reflection level (dB)"
+msgid "Early Reflection Level (dB)"
 msgstr ""
 
 #: gverb_1216.xml:186
-msgid "Tail level (dB)"
+msgid "Tail Level (dB)"
 msgstr ""
 
 #: gverb_1216.xml:203 plate_1423.xml:167 sc3_1427.xml:233 sc4_1434.xml:238
-msgid "Left output"
+msgid "Left Output"
 msgstr ""
 
 #: gverb_1216.xml:210 plate_1423.xml:174 sc3_1427.xml:240 sc4_1434.xml:245
-msgid "Right output"
+msgid "Right Output"
 msgstr ""
 
 #: hard_limiter_1413.xml:55
@@ -646,59 +646,59 @@ msgid "Hard Limiter"
 msgstr ""
 
 #: hard_limiter_1413.xml:80
-msgid "dB limit"
+msgid "Limit (dB)"
 msgstr ""
 
 #: hard_limiter_1413.xml:90
-msgid "Wet level"
+msgid "Wet Level"
 msgstr ""
 
 #: hard_limiter_1413.xml:100
-msgid "Residue level"
+msgid "Residue Level"
 msgstr ""
 
 #: harmonic_gen_1220.xml:123
-msgid "Harmonic generator"
+msgid "Harmonic Generator"
 msgstr ""
 
 #: harmonic_gen_1220.xml:148
-msgid "Fundamental magnitude"
+msgid "Fundamental Magnitude"
 msgstr ""
 
 #: harmonic_gen_1220.xml:158
-msgid "2nd harmonic magnitude"
+msgid "2nd Harmonic Magnitude"
 msgstr ""
 
 #: harmonic_gen_1220.xml:168
-msgid "3rd harmonic magnitude"
+msgid "3rd Harmonic Magnitude"
 msgstr ""
 
 #: harmonic_gen_1220.xml:178
-msgid "4th harmonic magnitude"
+msgid "4th Harmonic Magnitude"
 msgstr ""
 
 #: harmonic_gen_1220.xml:188
-msgid "5th harmonic magnitude"
+msgid "5th Harmonic Magnitude"
 msgstr ""
 
 #: harmonic_gen_1220.xml:198
-msgid "6th harmonic magnitude"
+msgid "6th Harmonic Magnitude"
 msgstr ""
 
 #: harmonic_gen_1220.xml:208
-msgid "7th harmonic magnitude"
+msgid "7th Harmonic Magnitude"
 msgstr ""
 
 #: harmonic_gen_1220.xml:218
-msgid "8th harmonic magnitude"
+msgid "8th Harmonic Magnitude"
 msgstr ""
 
 #: harmonic_gen_1220.xml:228
-msgid "9th harmonic magnitude"
+msgid "9th Harmonic Magnitude"
 msgstr ""
 
 #: harmonic_gen_1220.xml:238
-msgid "10th harmonic magnitude"
+msgid "10th Harmonic Magnitude"
 msgstr ""
 
 #: hermes_filter_1200.xml:446
@@ -706,211 +706,211 @@ msgid "Hermes Filter"
 msgstr ""
 
 #: hermes_filter_1200.xml:471
-msgid "LFO1 freq (Hz)"
+msgid "LFO1 Freq (Hz)"
 msgstr ""
 
 #: hermes_filter_1200.xml:481
-msgid "LFO1 wave (0 = sin, 1 = tri, 2 = saw, 3 = squ, 4 = s&h)"
+msgid "LFO1 Wave (0=sin, 1=tri, 2=saw, 3=squ, 4=s&h)"
 msgstr ""
 
 #: hermes_filter_1200.xml:491
-msgid "LFO2 freq (Hz)"
+msgid "LFO2 Freq (Hz)"
 msgstr ""
 
 #: hermes_filter_1200.xml:501
-msgid "LFO2 wave (0 = sin, 1 = tri, 2 = saw, 3 = squ, 4 = s&h)"
+msgid "LFO2 Wave (0=sin, 1=tri, 2=saw, 3=squ, 4=s&h)"
 msgstr ""
 
 #: hermes_filter_1200.xml:511
-msgid "Osc1 freq (Hz)"
+msgid "Osc1 Freq (Hz)"
 msgstr ""
 
 #: hermes_filter_1200.xml:521
-msgid "Osc1 wave (0 = sin, 1 = tri, 2 = saw, 3 = squ, 4 = noise)"
+msgid "Osc1 Wave (0=sin, 1=tri, 2=saw, 3=squ, 4=noise)"
 msgstr ""
 
 #: hermes_filter_1200.xml:531
-msgid "Osc2 freq (Hz)"
+msgid "Osc2 Freq (Hz)"
 msgstr ""
 
 #: hermes_filter_1200.xml:541
-msgid "Osc2 wave (0 = sin, 1 = tri, 2 = saw, 3 = squ, 4 = noise)"
+msgid "Osc2 Wave (0=sin, 1=tri, 2=saw, 3=squ, 4=noise)"
 msgstr ""
 
 #: hermes_filter_1200.xml:551
-msgid "Ringmod 1 depth (0=none, 1=AM, 2=RM)"
+msgid "Ringmod 1 Depth (0=none, 1=AM, 2=RM)"
 msgstr ""
 
 #: hermes_filter_1200.xml:561
-msgid "Ringmod 2 depth (0=none, 1=AM, 2=RM)"
+msgid "Ringmod 2 Depth (0=none, 1=AM, 2=RM)"
 msgstr ""
 
 #: hermes_filter_1200.xml:571
-msgid "Ringmod 3 depth (0=none, 1=AM, 2=RM)"
+msgid "Ringmod 3 Depth (0=none, 1=AM, 2=RM)"
 msgstr ""
 
 #: hermes_filter_1200.xml:581
-msgid "Osc1 gain (dB)"
+msgid "Osc1 Gain (dB)"
 msgstr ""
 
 #: hermes_filter_1200.xml:591
-msgid "RM1 gain (dB)"
+msgid "RM1 Gain (dB)"
 msgstr ""
 
 #: hermes_filter_1200.xml:601
-msgid "Osc2 gain (dB)"
+msgid "Osc2 Gain (dB)"
 msgstr ""
 
 #: hermes_filter_1200.xml:611
-msgid "RM2 gain (dB)"
+msgid "RM2 Gain (dB)"
 msgstr ""
 
 #: hermes_filter_1200.xml:631
-msgid "RM3 gain (dB)"
+msgid "RM3 Gain (dB)"
 msgstr ""
 
 #: hermes_filter_1200.xml:641
-msgid "Xover lower freq"
+msgid "X-Over Lower Freq"
 msgstr ""
 
 #: hermes_filter_1200.xml:651
-msgid "Xover upper freq"
+msgid "X-Over Upper Freq"
 msgstr ""
 
 #: hermes_filter_1200.xml:661
-msgid "Dist1 drive"
+msgid "Dist1 Drive"
 msgstr ""
 
 #: hermes_filter_1200.xml:671
-msgid "Dist2 drive"
+msgid "Dist2 Drive"
 msgstr ""
 
 #: hermes_filter_1200.xml:681
-msgid "Dist3 drive"
+msgid "Dist3 Drive"
 msgstr ""
 
 #: hermes_filter_1200.xml:691
-msgid "Filt1 type (0=none, 1=LP, 2=HP, 3=BP, 4=BR, 5=AP)"
+msgid "Filt1 Type (0=none, 1=LP, 2=HP, 3=BP, 4=BR, 5=AP)"
 msgstr ""
 
 #: hermes_filter_1200.xml:701
-msgid "Filt1 freq"
+msgid "Filt1 Freq"
 msgstr ""
 
 #: hermes_filter_1200.xml:711
-msgid "Filt1 q"
+msgid "Filt1 Q"
 msgstr ""
 
 #: hermes_filter_1200.xml:721
-msgid "Filt1 resonance"
+msgid "Filt1 Resonance"
 msgstr ""
 
 #: hermes_filter_1200.xml:731
-msgid "Filt1 LFO1 level"
+msgid "Filt1 LFO1 Level"
 msgstr ""
 
 #: hermes_filter_1200.xml:741
-msgid "Filt1 LFO2 level"
+msgid "Filt1 LFO2 Level"
 msgstr ""
 
 #: hermes_filter_1200.xml:751
-msgid "Filt2 type (0=none, 1=LP, 2=HP, 3=BP, 4=BR, 5=AP)"
+msgid "Filt2 Type (0=none, 1=LP, 2=HP, 3=BP, 4=BR, 5=AP)"
 msgstr ""
 
 #: hermes_filter_1200.xml:761
-msgid "Filt2 freq"
+msgid "Filt2 Freq"
 msgstr ""
 
 #: hermes_filter_1200.xml:771
-msgid "Filt2 q"
+msgid "Filt2 Q"
 msgstr ""
 
 #: hermes_filter_1200.xml:781
-msgid "Filt2 resonance"
+msgid "Filt2 Resonance"
 msgstr ""
 
 #: hermes_filter_1200.xml:791
-msgid "Filt2 LFO1 level"
+msgid "Filt2 LFO1 Level"
 msgstr ""
 
 #: hermes_filter_1200.xml:801
-msgid "Filt2 LFO2 level"
+msgid "Filt2 LFO2 Level"
 msgstr ""
 
 #: hermes_filter_1200.xml:811
-msgid "Filt3 type (0=none, 1=LP, 2=HP, 3=BP, 4=BR, 5=AP)"
+msgid "Filt3 Type (0=none, 1=LP, 2=HP, 3=BP, 4=BR, 5=AP)"
 msgstr ""
 
 #: hermes_filter_1200.xml:821
-msgid "Filt3 freq"
+msgid "Filt3 Freq"
 msgstr ""
 
 #: hermes_filter_1200.xml:831
-msgid "Filt3 q"
+msgid "Filt3 Q"
 msgstr ""
 
 #: hermes_filter_1200.xml:841
-msgid "Filt3 resonance"
+msgid "Filt3 Resonance"
 msgstr ""
 
 #: hermes_filter_1200.xml:851
-msgid "Filt3 LFO1 level"
+msgid "Filt3 LFO1 Level"
 msgstr ""
 
 #: hermes_filter_1200.xml:861
-msgid "Filt3 LFO2 level"
+msgid "Filt3 LFO2 Level"
 msgstr ""
 
 #: hermes_filter_1200.xml:871
-msgid "Delay1 length (s)"
+msgid "Delay1 Length (s)"
 msgstr ""
 
 #: hermes_filter_1200.xml:881
-msgid "Delay1 feedback"
+msgid "Delay1 Feedback"
 msgstr ""
 
 #: hermes_filter_1200.xml:891
-msgid "Delay1 wetness"
+msgid "Delay1 Wetness"
 msgstr ""
 
 #: hermes_filter_1200.xml:901
-msgid "Delay2 length (s)"
+msgid "Delay2 Length (s)"
 msgstr ""
 
 #: hermes_filter_1200.xml:911
-msgid "Delay2 feedback"
+msgid "Delay2 Feedback"
 msgstr ""
 
 #: hermes_filter_1200.xml:921
-msgid "Delay2 wetness"
+msgid "Delay2 Wetness"
 msgstr ""
 
 #: hermes_filter_1200.xml:931
-msgid "Delay3 length (s)"
+msgid "Delay3 Length (s)"
 msgstr ""
 
 #: hermes_filter_1200.xml:941
-msgid "Delay3 feedback"
+msgid "Delay3 Feedback"
 msgstr ""
 
 #: hermes_filter_1200.xml:951
-msgid "Delay3 wetness"
+msgid "Delay3 Wetness"
 msgstr ""
 
 #: hermes_filter_1200.xml:961 triple_para_1204.xml:135
-msgid "Band 1 gain (dB)"
+msgid "Band 1 Gain (dB)"
 msgstr ""
 
 #: hermes_filter_1200.xml:971 triple_para_1204.xml:165
-msgid "Band 2 gain (dB)"
+msgid "Band 2 Gain (dB)"
 msgstr ""
 
 #: hermes_filter_1200.xml:981 triple_para_1204.xml:195
-msgid "Band 3 gain (dB)"
+msgid "Band 3 Gain (dB)"
 msgstr ""
 
 #: imp_1199.xml:235
-msgid "Impulse convolver"
+msgid "Impulse Convolver"
 msgstr ""
 
 #: imp_1199.xml:260
@@ -918,7 +918,7 @@ msgid "Impulse ID"
 msgstr ""
 
 #: imp_1199.xml:270
-msgid "High latency mode"
+msgid "High Latency Mode"
 msgstr ""
 
 #: imp_1199.xml:280 single_para_1203.xml:89
@@ -934,23 +934,23 @@ msgid "Karaoke"
 msgstr ""
 
 #: karaoke_1409.xml:75
-msgid "Vocal volume (dB)"
+msgid "Vocal Volume (dB)"
 msgstr ""
 
 #: karaoke_1409.xml:85
-msgid "Left in"
+msgid "Left In"
 msgstr ""
 
 #: karaoke_1409.xml:92
-msgid "Right in"
+msgid "Right In"
 msgstr ""
 
 #: karaoke_1409.xml:99
-msgid "Left out"
+msgid "Left Out"
 msgstr ""
 
 #: karaoke_1409.xml:106
-msgid "Right out"
+msgid "Right Out"
 msgstr ""
 
 #: lcr_delay_1436.xml:156
@@ -958,35 +958,35 @@ msgid "L/C/R Delay"
 msgstr ""
 
 #: lcr_delay_1436.xml:181
-msgid "L delay (ms)"
+msgid "L Delay (ms)"
 msgstr ""
 
 #: lcr_delay_1436.xml:191
-msgid "L level"
+msgid "L Level"
 msgstr ""
 
 #: lcr_delay_1436.xml:201
-msgid "C delay (ms)"
+msgid "C Delay (ms)"
 msgstr ""
 
 #: lcr_delay_1436.xml:211
-msgid "C level"
+msgid "C Level"
 msgstr ""
 
 #: lcr_delay_1436.xml:221
-msgid "R delay (ms)"
+msgid "R Delay (ms)"
 msgstr ""
 
 #: lcr_delay_1436.xml:231
-msgid "R level"
+msgid "R Level"
 msgstr ""
 
 #: lcr_delay_1436.xml:251
-msgid "High damp (%)"
+msgid "High Damp (%)"
 msgstr ""
 
 #: lcr_delay_1436.xml:261
-msgid "Low damp (%)"
+msgid "Low Damp (%)"
 msgstr ""
 
 #: lcr_delay_1436.xml:271
@@ -994,19 +994,19 @@ msgid "Spread"
 msgstr ""
 
 #: lcr_delay_1436.xml:291
-msgid "L input"
+msgid "L Input"
 msgstr ""
 
 #: lcr_delay_1436.xml:298
-msgid "R input"
+msgid "R Input"
 msgstr ""
 
 #: lcr_delay_1436.xml:305
-msgid "L output"
+msgid "L Output"
 msgstr ""
 
 #: lcr_delay_1436.xml:312
-msgid "R output"
+msgid "R Output"
 msgstr ""
 
 #: step_muxer_1212.xml:166
@@ -1066,75 +1066,75 @@ msgid "Matrix: Stereo to MS"
 msgstr ""
 
 #: mbeq_1197.xml:205
-msgid "Multiband EQ"
+msgid "Multi-Band Equalizer"
 msgstr ""
 
 #: mbeq_1197.xml:230
-msgid "50Hz gain (low shelving)"
+msgid "50Hz Gain (Low Shelving)"
 msgstr ""
 
 #: mbeq_1197.xml:240
-msgid "100Hz gain"
+msgid "100Hz Gain"
 msgstr ""
 
 #: mbeq_1197.xml:250
-msgid "156Hz gain"
+msgid "156Hz Gain"
 msgstr ""
 
 #: mbeq_1197.xml:260
-msgid "220Hz gain"
+msgid "220Hz Gain"
 msgstr ""
 
 #: mbeq_1197.xml:270
-msgid "311Hz gain"
+msgid "311Hz Gain"
 msgstr ""
 
 #: mbeq_1197.xml:280
-msgid "440Hz gain"
+msgid "440Hz Gain"
 msgstr ""
 
 #: mbeq_1197.xml:290
-msgid "622Hz gain"
+msgid "622Hz Gain"
 msgstr ""
 
 #: mbeq_1197.xml:300
-msgid "880Hz gain"
+msgid "880Hz Gain"
 msgstr ""
 
 #: mbeq_1197.xml:310
-msgid "1250Hz gain"
+msgid "1250Hz Gain"
 msgstr ""
 
 #: mbeq_1197.xml:320
-msgid "1750Hz gain"
+msgid "1750Hz Gain"
 msgstr ""
 
 #: mbeq_1197.xml:330
-msgid "2500Hz gain"
+msgid "2500Hz Gain"
 msgstr ""
 
 #: mbeq_1197.xml:340
-msgid "3500Hz gain"
+msgid "3500Hz Gain"
 msgstr ""
 
 #: mbeq_1197.xml:350
-msgid "5000Hz gain"
+msgid "5000Hz Gain"
 msgstr ""
 
 #: mbeq_1197.xml:360
-msgid "10000Hz gain"
+msgid "10000Hz Gain"
 msgstr ""
 
 #: mbeq_1197.xml:370
-msgid "20000Hz gain"
+msgid "20000Hz Gain"
 msgstr ""
 
 #: mod_delay_1419.xml:78
-msgid "Modulatable delay"
+msgid "Modulable Delay"
 msgstr ""
 
 #: mod_delay_1419.xml:103
-msgid "Base delay (s)"
+msgid "Base Delay (s)"
 msgstr ""
 
 #: mod_delay_1419.xml:113
@@ -1146,11 +1146,11 @@ msgid "Multivoice Chorus"
 msgstr ""
 
 #: multivoice_chorus_1201.xml:221
-msgid "Number of voices"
+msgid "Number of Voices"
 msgstr ""
 
 #: multivoice_chorus_1201.xml:241
-msgid "Voice separation (ms)"
+msgid "Voice Separation (ms)"
 msgstr ""
 
 #: multivoice_chorus_1201.xml:251
@@ -1158,7 +1158,7 @@ msgid "Detune (%)"
 msgstr ""
 
 #: multivoice_chorus_1201.xml:271
-msgid "Output attenuation (dB)"
+msgid "Output Attenuation (dB)"
 msgstr ""
 
 #: phasers_1217.xml:182
@@ -1166,11 +1166,11 @@ msgid "LFO Phaser"
 msgstr ""
 
 #: phasers_1217.xml:207
-msgid "LFO rate (Hz)"
+msgid "LFO Rate (Hz)"
 msgstr ""
 
 #: phasers_1217.xml:217
-msgid "LFO depth"
+msgid "LFO Depth"
 msgstr ""
 
 #: phasers_1217.xml:237 phasers_1217.xml:475
@@ -1178,7 +1178,7 @@ msgid "Spread (octaves)"
 msgstr ""
 
 #: phasers_1217.xml:276
-msgid "4 x 4 pole allpass"
+msgid "All-Pass 4x4 Pole"
 msgstr ""
 
 #: phasers_1217.xml:301
@@ -1214,19 +1214,19 @@ msgid "Feedback 4"
 msgstr ""
 
 #: phasers_1217.xml:410
-msgid "Auto phaser"
+msgid "Auto Phaser"
 msgstr ""
 
 #: phasers_1217.xml:435
-msgid "Attack time (s)"
+msgid "Attack Time (s)"
 msgstr ""
 
 #: phasers_1217.xml:445
-msgid "Decay time (s)"
+msgid "Decay Time (s)"
 msgstr ""
 
 #: phasers_1217.xml:455
-msgid "Modulation depth"
+msgid "Modulation Depth"
 msgstr ""
 
 #: pitch_scale_1193.xml:56
@@ -1238,19 +1238,19 @@ msgid "Pitch co-efficient"
 msgstr ""
 
 #: pitch_scale_1194.xml:55
-msgid "Higher Quality Pitch Scaler"
+msgid "Pitch Scaler (Higher Quality)"
 msgstr ""
 
 #: plate_1423.xml:105
-msgid "Plate reverb"
+msgid "Plate Reverb"
 msgstr ""
 
 #: plate_1423.xml:130
-msgid "Reverb time"
+msgid "Reverb Time"
 msgstr ""
 
 #: rate_shifter_1417.xml:90
-msgid "Rate shifter"
+msgid "Rate Shifter"
 msgstr ""
 
 #: rate_shifter_1417.xml:115
@@ -1262,19 +1262,19 @@ msgid "Retro Flanger"
 msgstr ""
 
 #: retro_flange_1208.xml:218
-msgid "Average stall (ms)"
+msgid "Average Stall (ms)"
 msgstr ""
 
 #: retro_flange_1208.xml:228
-msgid "Flange frequency (Hz)"
+msgid "Flange Frequency (Hz)"
 msgstr ""
 
 #: ringmod_1188.xml:74
-msgid "Ringmod with two inputs"
+msgid "Ringmod (Two Inputs)"
 msgstr ""
 
 #: ringmod_1188.xml:99 ringmod_1188.xml:173
-msgid "Modulation depth (0=none, 1=AM, 2=RM)"
+msgid "Modulation Depth (0=none, 1=AM, 2=RM)"
 msgstr ""
 
 #: ringmod_1188.xml:116
@@ -1282,23 +1282,23 @@ msgid "Modulator"
 msgstr ""
 
 #: ringmod_1188.xml:148
-msgid "Ringmod with LFO"
+msgid "Ringmod (LFO)"
 msgstr ""
 
 #: ringmod_1188.xml:193
-msgid "Sine level"
+msgid "Sine Level"
 msgstr ""
 
 #: ringmod_1188.xml:203
-msgid "Triangle level"
+msgid "Triangle Level"
 msgstr ""
 
 #: ringmod_1188.xml:213
-msgid "Sawtooth level"
+msgid "Sawtooth Level"
 msgstr ""
 
 #: ringmod_1188.xml:223
-msgid "Square level"
+msgid "Square Level"
 msgstr ""
 
 #: satan_maximiser_1408.xml:96
@@ -1306,11 +1306,11 @@ msgid "Barry's Satan Maximiser"
 msgstr ""
 
 #: satan_maximiser_1408.xml:121
-msgid "Decay time (samples)"
+msgid "Decay Time (samples)"
 msgstr ""
 
 #: satan_maximiser_1408.xml:131
-msgid "Knee point (dB)"
+msgid "Knee Point (dB)"
 msgstr ""
 
 #: sc1_1425.xml:113
@@ -1318,15 +1318,15 @@ msgid "SC1"
 msgstr ""
 
 #: sc1_1425.xml:138 sc2_1426.xml:135 sc3_1427.xml:142 sc4_1434.xml:144
-msgid "Attack time (ms)"
+msgid "Attack Time (ms)"
 msgstr ""
 
 #: sc1_1425.xml:148 sc2_1426.xml:145 sc3_1427.xml:152 sc4_1434.xml:154
-msgid "Release time (ms)"
+msgid "Release Time (ms)"
 msgstr ""
 
 #: sc1_1425.xml:158 sc2_1426.xml:155 sc3_1427.xml:162 sc4_1434.xml:164
-msgid "Threshold level (dB)"
+msgid "Threshold Level (dB)"
 msgstr ""
 
 #: sc1_1425.xml:168 sc2_1426.xml:165 sc3_1427.xml:172 sc4_1434.xml:174
@@ -1334,11 +1334,11 @@ msgid "Ratio (1:n)"
 msgstr ""
 
 #: sc1_1425.xml:178 sc2_1426.xml:175 sc3_1427.xml:182 sc4_1434.xml:184
-msgid "Knee radius (dB)"
+msgid "Knee Radius (dB)"
 msgstr ""
 
 #: sc1_1425.xml:188 sc2_1426.xml:185 sc3_1427.xml:192 sc4_1434.xml:194
-msgid "Makeup gain (dB)"
+msgid "Makeup Gain (dB)"
 msgstr ""
 
 #: sc2_1426.xml:110
@@ -1346,7 +1346,7 @@ msgid "SC2"
 msgstr ""
 
 #: sc2_1426.xml:195 sc3_1427.xml:212
-msgid "Sidechain"
+msgid "Side-chain"
 msgstr ""
 
 #: sc3_1427.xml:117
@@ -1354,15 +1354,15 @@ msgid "SC3"
 msgstr ""
 
 #: sc3_1427.xml:202
-msgid "Chain balance"
+msgid "Chain Balance"
 msgstr ""
 
 #: sc3_1427.xml:219 sc4_1434.xml:224
-msgid "Left input"
+msgid "Left Input"
 msgstr ""
 
 #: sc3_1427.xml:226 sc4_1434.xml:231
-msgid "Right input"
+msgid "Right Input"
 msgstr ""
 
 #: sc4_1434.xml:119
@@ -1374,27 +1374,27 @@ msgid "Amplitude (dB)"
 msgstr ""
 
 #: sc4_1434.xml:214
-msgid "Gain reduction (dB)"
+msgid "Gain Reduction (dB)"
 msgstr ""
 
 #: shaper_1187.xml:58
-msgid "Wave shaper"
+msgid "Wave Shaper"
 msgstr ""
 
 #: shaper_1187.xml:83
-msgid "Waveshape"
+msgid "Wave Shape"
 msgstr ""
 
 #: sifter_1210.xml:168
-msgid "Signal sifter"
+msgid "Signal Sifter"
 msgstr ""
 
 #: sifter_1210.xml:193
-msgid "Sift size"
+msgid "Sift Size"
 msgstr ""
 
 #: single_para_1203.xml:64
-msgid "Single band parametric"
+msgid "Single-Band Parametric"
 msgstr ""
 
 #: single_para_1203.xml:109
@@ -1402,11 +1402,11 @@ msgid "Bandwidth (octaves)"
 msgstr ""
 
 #: sinus_wavewrapper_1198.xml:49
-msgid "Sinus wavewrapper"
+msgid "Sinus Wave-Wrapper"
 msgstr ""
 
 #: sinus_wavewrapper_1198.xml:74
-msgid "Wrap degree"
+msgid "Wrap Degree"
 msgstr ""
 
 #: smooth_decimate_1414.xml:75
@@ -1414,11 +1414,11 @@ msgid "Smooth Decimator"
 msgstr ""
 
 #: smooth_decimate_1414.xml:100
-msgid "Resample rate"
+msgid "Resample Rate"
 msgstr ""
 
 #: split_1406.xml:47
-msgid "Mono to Stereo splitter"
+msgid "Mono to Stereo Splitter"
 msgstr ""
 
 #: step_muxer_1212.xml:124
@@ -1426,7 +1426,7 @@ msgid "Step Demuxer"
 msgstr ""
 
 #: step_muxer_1212.xml:149
-msgid "Crossfade time (in ms)"
+msgid "Crossfade Time (in ms)"
 msgstr ""
 
 #: step_muxer_1212.xml:159
@@ -1458,7 +1458,7 @@ msgid "Input 8"
 msgstr ""
 
 #: surround_encoder_1401.xml:97
-msgid "Surround matrix encoder"
+msgid "Surround Matrix Encoder"
 msgstr ""
 
 #: surround_encoder_1401.xml:122
@@ -1490,11 +1490,11 @@ msgid "State Variable Filter"
 msgstr ""
 
 #: svf_1214.xml:187
-msgid "Filter type (0=none, 1=LP, 2=HP, 3=BP, 4=BR, 5=AP)"
+msgid "Filter Type (0=none, 1=LP, 2=HP, 3=BP, 4=BR, 5=AP)"
 msgstr ""
 
 #: svf_1214.xml:197
-msgid "Filter freq"
+msgid "Filter Freq"
 msgstr ""
 
 #: svf_1214.xml:207
@@ -1502,7 +1502,7 @@ msgid "Filter Q"
 msgstr ""
 
 #: svf_1214.xml:217
-msgid "Filter resonance"
+msgid "Filter Resonance"
 msgstr ""
 
 #: tape_delay_1211.xml:137
@@ -1510,127 +1510,127 @@ msgid "Tape Delay Simulation"
 msgstr ""
 
 #: tape_delay_1211.xml:162
-msgid "Tape speed (inches/sec, 1=normal)"
+msgid "Tape Speed (inches/sec, 1=normal)"
 msgstr ""
 
 #: tape_delay_1211.xml:172
-msgid "Dry level (dB)"
+msgid "Dry Level (dB)"
 msgstr ""
 
 #: tape_delay_1211.xml:182
-msgid "Tap 1 distance (inches)"
+msgid "Tap 1 Distance (inches)"
 msgstr ""
 
 #: tape_delay_1211.xml:192
-msgid "Tap 1 level (dB)"
+msgid "Tap 1 Level (dB)"
 msgstr ""
 
 #: tape_delay_1211.xml:202
-msgid "Tap 2 distance (inches)"
+msgid "Tap 2 Distance (inches)"
 msgstr ""
 
 #: tape_delay_1211.xml:212
-msgid "Tap 2 level (dB)"
+msgid "Tap 2 Level (dB)"
 msgstr ""
 
 #: tape_delay_1211.xml:222
-msgid "Tap 3 distance (inches)"
+msgid "Tap 3 Distance (inches)"
 msgstr ""
 
 #: tape_delay_1211.xml:232
-msgid "Tap 3 level (dB)"
+msgid "Tap 3 Level (dB)"
 msgstr ""
 
 #: tape_delay_1211.xml:242
-msgid "Tap 4 distance (inches)"
+msgid "Tap 4 Distance (inches)"
 msgstr ""
 
 #: tape_delay_1211.xml:252
-msgid "Tap 4 level (dB)"
+msgid "Tap 4 Level (dB)"
 msgstr ""
 
 #: transient_1206.xml:132
-msgid "Transient mangler"
+msgid "Transient Mangler"
 msgstr ""
 
 #: transient_1206.xml:157
-msgid "Attack speed"
+msgid "Attack Speed"
 msgstr ""
 
 #: transient_1206.xml:167
-msgid "Sustain time"
+msgid "Sustain Time"
 msgstr ""
 
 #: triple_para_1204.xml:80
-msgid "Triple band parametric with shelves"
+msgid "Triple-Band Parametric (Shelves)"
 msgstr ""
 
 #: triple_para_1204.xml:105
-msgid "Low-shelving gain (dB)"
+msgid "Low-Shelving Gain (dB)"
 msgstr ""
 
 #: triple_para_1204.xml:115
-msgid "Low-shelving frequency (Hz)"
+msgid "Low-Shelving Frequency (Hz)"
 msgstr ""
 
 #: triple_para_1204.xml:125
-msgid "Low-shelving slope"
+msgid "Low-Shelving Slope"
 msgstr ""
 
 #: triple_para_1204.xml:145
-msgid "Band 1 frequency (Hz)"
+msgid "Band 1 Frequency (Hz)"
 msgstr ""
 
 #: triple_para_1204.xml:155
-msgid "Band 1 bandwidth (octaves)"
+msgid "Band 1 Bandwidth (octaves)"
 msgstr ""
 
 #: triple_para_1204.xml:175
-msgid "Band 2 frequency (Hz)"
+msgid "Band 2 Frequency (Hz)"
 msgstr ""
 
 #: triple_para_1204.xml:185
-msgid "Band 2 bandwidth (octaves)"
+msgid "Band 2 Bandwidth (octaves)"
 msgstr ""
 
 #: triple_para_1204.xml:205
-msgid "Band 3 frequency (Hz)"
+msgid "Band 3 Frequency (Hz)"
 msgstr ""
 
 #: triple_para_1204.xml:215
-msgid "Band 3 bandwidth (octaves)"
+msgid "Band 3 Bandwidth (octaves)"
 msgstr ""
 
 #: triple_para_1204.xml:225
-msgid "High-shelving gain (dB)"
+msgid "High-Shelving Gain (dB)"
 msgstr ""
 
 #: triple_para_1204.xml:235
-msgid "High-shelving frequency (Hz)"
+msgid "High-Shelving Frequency (Hz)"
 msgstr ""
 
 #: triple_para_1204.xml:245
-msgid "High-shelving slope"
+msgid "High-Shelving Slope"
 msgstr ""
 
 #: valve_1209.xml:83
-msgid "Valve saturation"
+msgid "Valve Saturation"
 msgstr ""
 
 #: valve_1209.xml:108
-msgid "Distortion level"
+msgid "Distortion Level"
 msgstr ""
 
 #: valve_1209.xml:118
-msgid "Distortion character"
+msgid "Distortion Character"
 msgstr ""
 
 #: valve_rect_1405.xml:111
-msgid "Valve rectifier"
+msgid "Valve Rectifier"
 msgstr ""
 
 #: valve_rect_1405.xml:136
-msgid "Sag level"
+msgid "Sag Level"
 msgstr ""
 
 #: wave_terrain_1412.xml:49
@@ -1638,17 +1638,17 @@ msgid "Wave Terrain Oscillator"
 msgstr ""
 
 #: wave_terrain_1412.xml:74
-msgid "x"
+msgid "X"
 msgstr ""
 
 #: wave_terrain_1412.xml:81
-msgid "y"
+msgid "Y"
 msgstr ""
 
 #: wave_terrain_1412.xml:88
-msgid "z"
+msgid "Z"
 msgstr ""
 
 #: zm1_1428.xml:55
-msgid "z-1"
+msgid "Z-1"
 msgstr ""

@@ -43,7 +43,7 @@
   </global>
 
   <plugin label="harmonicGen" id="1220" class="GeneratorPlugin">
-    <name>Harmonic generator</name>
+    <name>Harmonic Generator</name>
     <p>\subsubsection{What does it do?}</p>
     <p>Allows you to add harmonics and remove the fundamental from any audio signal.</p>
     <p>\subsubsection{Known bugs}</p>
@@ -100,57 +100,57 @@
     ]]></callback>
 
     <port label="mag_1" dir="input" type="control" hint="default_1">
-      <name>Fundamental magnitude</name>
+      <name>Fundamental Magnitude</name>
       <p>The amplitude of the fundamental of the signal, reduce it to 0 to remove the base signal altogether, or -1 to phase invert it.</p>
       <range min="-1" max="+1"/>
     </port>
 
     <port label="mag_2" dir="input" type="control" hint="default_0">
-      <name>2nd harmonic magnitude</name>
+      <name>2nd Harmonic Magnitude</name>
       <p>The 2nd harmonic, its frequency is twice the frequency of the fundamental.</p>
       <p>Even harmonics add a distorted feel to the sound, valve (tube) amplifiers introduce distortions at all the harmonics.</p>
       <range min="-1" max="+1"/>
     </port>
 
     <port label="mag_3" dir="input" type="control" hint="default_0">
-      <name>3rd harmonic magnitude</name>
+      <name>3rd Harmonic Magnitude</name>
       <p>The 3rd harmonic, its frequency is three times the frequency of the fundamental.</p>
       <p>Transistor amplifiers only introduce distortion into the odd harmonics.</p>
       <range min="-1" max="+1"/>
     </port>
 
     <port label="mag_4" dir="input" type="control" hint="default_0">
-      <name>4th harmonic magnitude</name>
+      <name>4th Harmonic Magnitude</name>
       <range min="-1" max="+1"/>
     </port>
 
     <port label="mag_5" dir="input" type="control" hint="default_0">
-      <name>5th harmonic magnitude</name>
+      <name>5th Harmonic Magnitude</name>
       <range min="-1" max="+1"/>
     </port>
 
     <port label="mag_6" dir="input" type="control" hint="default_0">
-      <name>6th harmonic magnitude</name>
+      <name>6th Harmonic Magnitude</name>
       <range min="-1" max="+1"/>
     </port>
 
     <port label="mag_7" dir="input" type="control" hint="default_0">
-      <name>7th harmonic magnitude</name>
+      <name>7th Harmonic Magnitude</name>
       <range min="-1" max="+1"/>
     </port>
 
     <port label="mag_8" dir="input" type="control" hint="default_0">
-      <name>8th harmonic magnitude</name>
+      <name>8th Harmonic Magnitude</name>
       <range min="-1" max="+1"/>
     </port>
 
     <port label="mag_9" dir="input" type="control" hint="default_0">
-      <name>9th harmonic magnitude</name>
+      <name>9th Harmonic Magnitude</name>
       <range min="-1" max="+1"/>
     </port>
 
     <port label="mag_10" dir="input" type="control" hint="default_0">
-      <name>10th harmonic magnitude</name>
+      <name>10th Harmonic Magnitude</name>
       <range min="-1" max="+1"/>
     </port>
 

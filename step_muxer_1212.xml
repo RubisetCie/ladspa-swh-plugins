@@ -100,7 +100,7 @@
     ]]></callback>
 
     <port label="xfadet" dir="input" type="control" hint="default_middle">
-      <name>Crossfade time (in ms)</name>
+      <name>Crossfade Time (in ms)</name>
       <range min="0" max="100"/>
     </port>
 

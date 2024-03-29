@@ -198,13 +198,13 @@
     ]]></callback>
 
     <port label="seed" dir="input" type="control" hint="integer,default_0">
-      <name>Random seed</name>
+      <name>Random Seed</name>
       <p>Controls the random numbers that will be used to stagger the delays and amplitudes if random is turned up on them. Changing this forces the random values to be recalulated.</p>
       <range min="0" max="1000"/>
     </port>
 
     <port label="gain" dir="input" type="control" hint="default_0">
-      <name>Input gain (dB)</name>
+      <name>Input Gain (dB)</name>
       <p>Controls the gain of the input signal in dB's.</p>
       <range min="-96" max="+24"/>
     </port>
@@ -216,49 +216,49 @@
     </port>
 
     <port label="tap_count" dir="input" type="control" hint="integer,default_minimum">
-      <name>Number of taps</name>
+      <name>Number of Taps</name>
       <p>Controls the number of taps in the delay.</p>
       <range min="2" max="N_TAPS"/>
     </port>
 
     <port label="first_delay" dir="input" type="control" hint="default_0">
-      <name>First delay (s)</name>
+      <name>First Delay (s)</name>
       <p>The time of the first delay.</p>
       <range min="0" max="5"/>
     </port>
 
     <port label="delay_range" dir="input" type="control" hint="default_maximum">
-      <name>Delay range (s)</name>
+      <name>Delay Range (s)</name>
       <p>The time difference between the first and last delay.</p>
       <range min="0.0001" max="6"/>
     </port>
 
     <port label="delay_scale" dir="input" type="control" hint="default_1">
-      <name>Delay change</name>
+      <name>Delay Change</name>
       <p>The scaling factor between one delay and the next.</p>
       <range min="0.2" max="5"/>
     </port>
 
     <port label="delay_rand_pc" dir="input" type="control" hint="default_0">
-      <name>Delay random (%)</name>
+      <name>Delay Random (%)</name>
       <p>The random factor applied to the delay.</p>
       <range min="0" max="100"/>
     </port>
 
     <port label="gain_scale" dir="input" type="control" hint="default_1">
-      <name>Amplitude change</name>
+      <name>Amplitude Change</name>
       <p>The scaling factor between one amplitude and the next.</p>
       <range min="0.2" max="5"/>
     </port>
 
     <port label="gain_rand_pc" dir="input" type="control" hint="default_0">
-      <name>Amplitude random (%)</name>
+      <name>Amplitude Random (%)</name>
       <p>The random factor applied to the amplitude.</p>
       <range min="0" max="100"/>
     </port>
 
     <port label="wet" dir="input" type="control" hint="default_1">
-      <name>Dry/wet mix</name>
+      <name>Dry/Wet Mix</name>
       <p>The level of delayed sound mixed into the output.</p>
       <range min="0" max="1"/>
     </port>

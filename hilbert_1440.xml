@@ -45,7 +45,7 @@ static float xcoeffs[] = {
   </global>
 
   <plugin label="hilbert" id="1440" class="UtilityPlugin">
-    <name>Hilbert transformer</name>
+    <name>Hilbert Transformer</name>
     <p>A Hilbert Transformer phase shifts the input signal by 90degrees. It outputs the 90 degree phase shifted signal and the unshifted signal, both delayed by an equivalent amount</p>
     <p>This plugin was written for a demo at the LAD Meet in 2003.</p>
 
@@ -85,15 +85,15 @@ static float xcoeffs[] = {
     </port>
 
     <port label="output0" dir="output" type="audio">
-      <name>0deg output</name>
+      <name>0 Deg Output</name>
     </port>
 
     <port label="output90" dir="output" type="audio">
-      <name>90deg output</name>
+      <name>90 Deg Output</name>
     </port>
 
     <port label="latency" dir="output" type="control">
-      <name>latency</name>
+      <name>Latency</name>
     </port>
 
     <instance-data label="delay" type="LADSPA_Data *" />

@@ -13,7 +13,7 @@
   </global>
 
   <plugin label="singlePara" id="1203" class="ParaEQPlugin">
-    <name>Single band parametric</name>
+    <name>Single-Band Parametric</name>
     <p>A single band of a parametric filter.</p>
 
     <callback event="instantiate"><![CDATA[

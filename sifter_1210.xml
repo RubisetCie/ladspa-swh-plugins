@@ -51,7 +51,7 @@ int partition(LADSPA_Data array[], int left, int right) {
   </global>
 
   <plugin label="sifter" id="1210" class="TimePlugin,DistortionPlugin">
-    <name>Signal sifter</name>
+    <name>Signal Sifter</name>
     <p>Sorts and mixes blocks of the input signal to give a "bumpy ramp" effect.</p>
     <p>Certain types of input will produce silence on the output (mostly ones with only low frequency components).</p>
     <p>This is a very odd effect, and doesn't really have any music applications, but can produce some interesting noises.</p>
@@ -145,7 +145,7 @@ plugin_data->b2ptr = b2ptr;
     ]]></callback>
 
     <port label="size" dir="input" type="control" hint="default_1">
-      <name>Sift size</name>
+      <name>Sift Size</name>
       <range min="1" max="MAX_BSIZE"/>
     </port>
 

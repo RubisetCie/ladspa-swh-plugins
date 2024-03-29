@@ -151,13 +151,13 @@ plugin_data->z2 = z2;
 		]]></callback>
 
 		<port label="delay_depth_avg" dir="input" type="control" hint="default_low">
-			<name>Average stall (ms)</name>
+			<name>Average Stall (ms)</name>
 			<range min="0" max="10"/>
 			<p>The average time difference between the two tapes, per stall</p>
 		</port>
 
 		<port label="law_freq" dir="input" type="control" hint="default_1">
-			<name>Flange frequency (Hz)</name>
+			<name>Flange Frequency (Hz)</name>
 			<range min="0.5" max="8"/>
 			<p>The rate the tape is stalled at.</p>
 		</port>

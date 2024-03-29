@@ -25,7 +25,7 @@ Comments and suggestions should be mailed to Juhana Sadeharju
   </global>
 
   <plugin label="gverb" id="1216" class="ReverbPlugin">
-    <name>GVerb</name>
+    <name>G-Verb</name>
     <p>A mono in, stereo out reverb implementation by Juhana Sadeharju (kouhia at nic.funet.fi). I ported it to LADSPA and did some testing.</p>
     <p>Please contact Juhana directly regarding any bugs you find.</p>
     <p><![CDATA[
@@ -78,14 +78,14 @@ Comments and suggestions should be mailed to Juhana Sadeharju
     ]]></callback>
 
     <port label="roomsize" dir="input" type="control" hint="default_low">
-      <name>Roomsize (m)</name>
+      <name>Room Size (m)</name>
       <p>The size of the room, in meters. Excessivly large, and excessivly small values will make it sound a bit unrealistic.</p>
       <p>Values of around 30 sound good.</p>
       <range min="1" max="300"/>
     </port>
 
     <port label="revtime" dir="input" type="control" hint="default_low">
-      <name>Reverb time (s)</name>
+      <name>Reverb Time (s)</name>
       <p>Reverb decay time, in seconds. 7 is a good place to start.</p>
       <range min="0.1" max="30"/>
     </port>
@@ -97,25 +97,25 @@ Comments and suggestions should be mailed to Juhana Sadeharju
     </port>
 
     <port label="inputbandwidth" dir="input" type="control" hint="default_high">
-      <name>Input bandwidth</name>
+      <name>Input Bandwidth</name>
       <p>This is like a damping control for the input, it has a similar effect to the damping control, but is subtly different.</p>
       <range min="0" max="1"/>
     </port>
 
     <port label="drylevel" dir="input" type="control" hint="default_minimum">
-      <name>Dry signal level (dB)</name>
+      <name>Dry Signal Level (dB)</name>
       <p>The amount of dry signal to be mixed with the reverberated signal.</p>
       <range min="-70" max="0"/>
     </port>
 
     <port label="earlylevel" dir="input" type="control" hint="default_0">
-      <name>Early reflection level (dB)</name>
+      <name>Early Reflection Level (dB)</name>
       <p>The quantity of early reflections (scatter reflections directly from the source). Think of Lexicons ambiance patches.</p>
       <range min="-70" max="0"/>
     </port>
 
     <port label="taillevel" dir="input" type="control" hint="default_high">
-      <name>Tail level (dB)</name>
+      <name>Tail Level (dB)</name>
       <p>The level of the classic reverb tail reflections.</p>
       <range min="-70" max="0"/>
     </port>
@@ -125,11 +125,11 @@ Comments and suggestions should be mailed to Juhana Sadeharju
     </port>
 
     <port label="outl" dir="output" type="audio">
-      <name>Left output</name>
+      <name>Left Output</name>
     </port>
 
     <port label="outr" dir="output" type="audio">
-      <name>Right output</name>
+      <name>Right Output</name>
     </port>
 
     <instance-data label="verb" type="ty_gverb *" />

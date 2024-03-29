@@ -13,7 +13,7 @@
   </global>
 
   <plugin label="rateShifter" id="1417" class="PitchPlugin">
-    <name>Rate shifter</name>
+    <name>Rate Shifter</name>
     <p>Stretches or compresses the input with a ringbuffer.</p>
     <p>Because of the ringbuffer you will get stretches of silence or clicks when the read pointer passes the write pointer.</p>
     <p>The ringbuffer is about 2.7-3.0s long, depending on the sample rate.</p>

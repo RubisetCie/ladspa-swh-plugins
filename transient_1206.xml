@@ -17,7 +17,7 @@
   </global>
 
   <plugin label="transient" id="1206" class="DynamicsPlugin">
-    <name>Transient mangler</name>
+    <name>Transient Mangler</name>
 
     <callback event="instantiate">
 buffer = calloc(BUFFER_SIZE, sizeof(float));
@@ -108,12 +108,12 @@ plugin_data->slow_buffer_sum = slow_buffer_sum;
     ]]></callback>
 
     <port label="attack" dir="input" type="control" hint="default_0">
-      <name>Attack speed</name>
+      <name>Attack Speed</name>
       <range min="-1" max="1"/>
     </port>
 
     <port label="sustain" dir="input" type="control" hint="default_0">
-      <name>Sustain time</name>
+      <name>Sustain Time</name>
       <range min="-1" max="1"/>
     </port>
 

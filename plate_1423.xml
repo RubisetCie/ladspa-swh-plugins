@@ -18,7 +18,7 @@
   </global>
 
   <plugin label="plate" id="1423" class="ReverbPlugin">
-    <name>Plate reverb</name>
+    <name>Plate Reverb</name>
     <p>A physical model of a steel plate reverb.</p>
     <p>Based on Josep Comajuncosas' gong model, it uses 8 linear waveguides to model the plate.</p>
 
@@ -92,7 +92,7 @@
     ]]></callback>
 
     <port label="time" dir="input" type="control" hint="default_middle">
-      <name>Reverb time</name>
+      <name>Reverb Time</name>
       <p>Controls the RT60 time of the reverb. Actually controls the size of the plate. The mapping between plate size and RT60 time is just a heuristic, so it's not very accurate.</p>
       <range min="0.01" max="8.5"/>
     </port>
@@ -104,7 +104,7 @@
     </port>
 
     <port label="wet" dir="input" type="control" hint="default_low">
-      <name>Dry/wet mix</name>
+      <name>Dry/Wet Mix</name>
       <p>Controls the balance between the dry and wet signals.</p>
       <range min="0" max="1"/>
     </port>
@@ -114,11 +114,11 @@
     </port>
 
     <port label="outputl" dir="output" type="audio">
-      <name>Left output</name>
+      <name>Left Output</name>
     </port>
 
     <port label="outputr" dir="output" type="audio">
-      <name>Right output</name>
+      <name>Right Output</name>
     </port>
 
     <instance-data label="w" type="waveguide_nl **" />

@@ -17,7 +17,7 @@
   <!-- ******   IMPULSE-FC   ****** -->
 
   <plugin label="impulse_fc" id="1885" class="UtilityPlugin">
-    <name>Nonbandlimited single-sample impulses (Frequency: Control)</name>
+    <name>Single-Sample Impulses Non-Band Limited (Frequency: Control)</name>
     <p>Based on work by James McCartney in SuperCollider.</p>
     
     <callback event="instantiate"><![CDATA[

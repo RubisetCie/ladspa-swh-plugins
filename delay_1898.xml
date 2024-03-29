@@ -20,7 +20,7 @@
   <!-- ******   DELAY-N   ****** -->
 
   <plugin label="delay_n" id="1898" class="DelayPlugin">
-    <name>Simple delay line, noninterpolating</name>
+    <name>Simple Delay Line, Non-Interpolating</name>
     <p>Based on work by James McCartney in SuperCollider.</p>
     
     <callback event="instantiate"><![CDATA[
@@ -157,7 +157,7 @@
   <!-- ******   DELAY-L   ****** -->
 
   <plugin label="delay_l" id="1899" class="DelayPlugin">
-    <name>Simple delay line, linear interpolation</name>
+    <name>Simple Delay Line, Linear Interpolation</name>
     <p>Based on work by James McCartney in SuperCollider.</p>
     
     <callback event="instantiate"><![CDATA[
@@ -282,7 +282,7 @@
   <!-- ******   DELAY-C   ****** -->
 
   <plugin label="delay_c" id="1900" class="DelayPlugin">
-    <name>Simple delay line, cubic spline interpolation</name>
+    <name>Simple Delay Line, Cubic Spline Interpolation</name>
     <p>Based on work by James McCartney in SuperCollider.</p>
     
     <callback event="instantiate"><![CDATA[

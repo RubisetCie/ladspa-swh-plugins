@@ -17,7 +17,7 @@
   <!-- ******   DECAY   ****** -->
 
   <plugin label="decay" id="1886" class="UtilityPlugin">
-    <name>Exponential signal decay</name>
+    <name>Exponential Signal Decay</name>
     <p>Based on work by James McCartney in SuperCollider.</p>
     
     <callback event="instantiate"><![CDATA[

@@ -22,7 +22,7 @@
   </global>
 
   <plugin label="fastLookaheadLimiter" id="1913" class="LimiterPlugin">
-    <name>Fast Lookahead limiter</name>
+    <name>Fast Lookahead Limiter</name>
     <p>This is a limiter with an attack time of 5ms. It adds just over 5ms of
 latency to the input signal, but it guarantees that there will be no signals
 over the limit, and tries to get the minimum amount of distortion.</p>
@@ -190,7 +190,7 @@ over the limit, and tries to get the minimum amount of distortion.</p>
     ]]></callback>
 
     <port label="ingain" dir="input" type="control" hint="default_0">
-      <name>Input gain (dB)</name>
+      <name>Input Gain (dB)</name>
       <p>Gain that is applied to the input stage. Can be used to trim gain to
 bring it roughly under the limit or to push the signal against the limit.</p>
       <range min="-20" max="20"/>
@@ -204,7 +204,7 @@ as smoothly as possible to bring them as close as possible to this level.</p>
     </port>
 
     <port label="release" dir="input" type="control" hint="default_low">
-      <name>Release time (s)</name>
+      <name>Release Time (s)</name>
       <p>The time taken for the limiters attenuation to return to 0 dB's</p>
       <range min="0.01" max="2.0"/>
     </port>
@@ -232,7 +232,7 @@ as smoothly as possible to bring them as close as possible to this level.</p>
     </port>
 
     <port label="latency" dir="output" type="control">
-      <name>latency</name>
+      <name>Latency</name>
     </port>
 
     <instance-data label="buffer" type="LADSPA_Data *" />

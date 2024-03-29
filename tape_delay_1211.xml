@@ -113,52 +113,52 @@ plugin_data->z2 = z2;
 		]]></callback>
 
 		<port label="speed" dir="input" type="control" hint="default_1">
-			<name>Tape speed (inches/sec, 1=normal)</name>
+			<name>Tape Speed (inches/sec, 1=normal)</name>
 			<range min="0" max="10"/>
 		</port>
 
 		<port label="da_db" dir="input" type="control" hint="default_minimum">
-			<name>Dry level (dB)</name>
+			<name>Dry Level (dB)</name>
 			<range min="-90" max="0"/>
 		</port>
 
 		<port label="t1d" dir="input" type="control" hint="default_0">
-			<name>Tap 1 distance (inches)</name>
+			<name>Tap 1 Distance (inches)</name>
 			<range min="0" max="4"/>
 		</port>
 
 		<port label="t1a_db" dir="input" type="control" hint="default_0">
-			<name>Tap 1 level (dB)</name>
+			<name>Tap 1 Level (dB)</name>
 			<range min="-90" max="0"/>
 		</port>
 
 		<port label="t2d" dir="input" type="control" hint="default_low">
-			<name>Tap 2 distance (inches)</name>
+			<name>Tap 2 Distance (inches)</name>
 			<range min="0" max="4"/>
 		</port>
 
 		<port label="t2a_db" dir="input" type="control" hint="default_minimum">
-			<name>Tap 2 level (dB)</name>
+			<name>Tap 2 Level (dB)</name>
 			<range min="-90" max="0"/>
 		</port>
 
 		<port label="t3d" dir="input" type="control" hint="default_middle">
-			<name>Tap 3 distance (inches)</name>
+			<name>Tap 3 Distance (inches)</name>
 			<range min="0" max="4"/>
 		</port>
 
 		<port label="t3a_db" dir="input" type="control" hint="default_minimum">
-			<name>Tap 3 level (dB)</name>
+			<name>Tap 3 Level (dB)</name>
 			<range min="-90" max="0"/>
 		</port>
 
 		<port label="t4d" dir="input" type="control" hint="default_high">
-			<name>Tap 4 distance (inches)</name>
+			<name>Tap 4 Distance (inches)</name>
 			<range min="0" max="4"/>
 		</port>
 
 		<port label="t4a_db" dir="input" type="control" hint="default_minimum">
-			<name>Tap 4 level (dB)</name>
+			<name>Tap 4 Level (dB)</name>
 			<range min="-90" max="0"/>
 		</port>
 

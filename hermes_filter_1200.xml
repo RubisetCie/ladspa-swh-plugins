@@ -423,278 +423,278 @@ plugin_data->lfo2_phase = lfo2_phase;
 		<!-- LFO control -->
 
 		<port label="lfo1_freq" dir="input" type="control" hint="default_low">
-			<name>LFO1 freq (Hz)</name>
+			<name>LFO1 Freq (Hz)</name>
 			<range min="0" max="1000"/>
 		</port>
 
 		<port label="lfo1_wave" dir="input" type="control" hint="integer,default_0">
-			<name>LFO1 wave (0 = sin, 1 = tri, 2 = saw, 3 = squ, 4 = s&amp;h)</name>
+			<name>LFO1 Wave (0=sin, 1=tri, 2=saw, 3=squ, 4=s&amp;h)</name>
 			<range min="0" max="4"/>
 		</port>
 
 		<port label="lfo2_freq" dir="input" type="control" hint="default_low">
-			<name>LFO2 freq (Hz)</name>
+			<name>LFO2 Freq (Hz)</name>
 			<range min="0" max="1000"/>
 		</port>
 
 		<port label="lfo2_wave" dir="input" type="control" hint="integer,default_0">
-			<name>LFO2 wave (0 = sin, 1 = tri, 2 = saw, 3 = squ, 4 = s&amp;h)</name>
+			<name>LFO2 Wave (0=sin, 1=tri, 2=saw, 3=squ, 4=s&amp;h)</name>
 			<range min="0" max="4"/>
 		</port>
 
 		<!-- osc control -->
 
 		<port label="osc1_freq" dir="input" type="control" hint="default_440">
-			<name>Osc1 freq (Hz)</name>
+			<name>Osc1 Freq (Hz)</name>
 			<range min="0" max="4000"/>
 		</port>
 
 		<port label="osc1_wave" dir="input" type="control" hint="integer,default_0">
-			<name>Osc1 wave (0 = sin, 1 = tri, 2 = saw, 3 = squ, 4 = noise)</name>
+			<name>Osc1 Wave (0=sin, 1=tri, 2=saw, 3=squ, 4=noise)</name>
 			<range min="0" max="4"/>
 		</port>
 
 		<port label="osc2_freq" dir="input" type="control" hint="default_440">
-			<name>Osc2 freq (Hz)</name>
+			<name>Osc2 Freq (Hz)</name>
 			<range min="0" max="4000"/>
 		</port>
 
 		<port label="osc2_wave" dir="input" type="control" hint="integer,default_0">
-			<name>Osc2 wave (0 = sin, 1 = tri, 2 = saw, 3 = squ, 4 = noise)</name>
+			<name>Osc2 Wave (0=sin, 1=tri, 2=saw, 3=squ, 4=noise)</name>
 			<range min="0" max="4"/>
 		</port>
 
 		<!-- ringmod control -->
 
                 <port label="rm1_depth" dir="input" type="control" hint="default_0">
-                        <name>Ringmod 1 depth (0=none, 1=AM, 2=RM)</name>
+                        <name>Ringmod 1 Depth (0=none, 1=AM, 2=RM)</name>
                         <range min="0" max="2"/>
                 </port>
 
                 <port label="rm2_depth" dir="input" type="control" hint="default_0">
-                        <name>Ringmod 2 depth (0=none, 1=AM, 2=RM)</name>
+                        <name>Ringmod 2 Depth (0=none, 1=AM, 2=RM)</name>
                         <range min="0" max="2"/>
                 </port>
 
                 <port label="rm3_depth" dir="input" type="control" hint="default_0">
-                        <name>Ringmod 3 depth (0=none, 1=AM, 2=RM)</name>
+                        <name>Ringmod 3 Depth (0=none, 1=AM, 2=RM)</name>
                         <range min="0" max="2"/>
                 </port>
 
 		<!-- mixer1 control -->
 
 		<port label="osc1_gain_db" dir="input" type="control" hint="default_minimum">
-			<name>Osc1 gain (dB)</name>
+			<name>Osc1 Gain (dB)</name>
 			<range min="-70" max="+20"/>
 		</port>
 
 		<port label="rm1_gain_db" dir="input" type="control" hint="default_minimum">
-			<name>RM1 gain (dB)</name>
+			<name>RM1 Gain (dB)</name>
 			<range min="-70" max="+20"/>
 		</port>
 
 		<port label="osc2_gain_db" dir="input" type="control" hint="default_minimum">
-			<name>Osc2 gain (dB)</name>
+			<name>Osc2 Gain (dB)</name>
 			<range min="-70" max="+20"/>
 		</port>
 
 		<port label="rm2_gain_db" dir="input" type="control" hint="default_minimum">
-			<name>RM2 gain (dB)</name>
+			<name>RM2 Gain (dB)</name>
 			<range min="-70" max="+20"/>
 		</port>
 
 		<port label="in_gain_db" dir="input" type="control" hint="default_0">
-			<name>Input gain (dB)</name>
+			<name>Input Gain (dB)</name>
 			<range min="-70" max="+20"/>
 		</port>
 
 		<port label="rm3_gain_db" dir="input" type="control" hint="default_minimum">
-			<name>RM3 gain (dB)</name>
+			<name>RM3 Gain (dB)</name>
 			<range min="-70" max="+20"/>
 		</port>
 
 		<!-- xover control -->
 
 		<port label="xover_lfreqp" dir="input" type="control" hint="default_low">
-			<name>Xover lower freq</name>
+			<name>X-Over Lower Freq</name>
 			<range min="50" max="6000"/>
 		</port>
 
 		<port label="xover_ufreqp" dir="input" type="control" hint="default_high">
-			<name>Xover upper freq</name>
+			<name>X-Over Upper Freq</name>
 			<range min="1000" max="10000"/>
 		</port>
 
 		<!-- distortion control -->
 
 		<port label="drive1" dir="input" type="control" hint="default_0">
-			<name>Dist1 drive</name>
+			<name>Dist1 Drive</name>
 			<range min="0" max="3"/>
 		</port>
 
 		<port label="drive2" dir="input" type="control" hint="default_0">
-			<name>Dist2 drive</name>
+			<name>Dist2 Drive</name>
 			<range min="0" max="3"/>
 		</port>
 
 		<port label="drive3" dir="input" type="control" hint="default_0">
-			<name>Dist3 drive</name>
+			<name>Dist3 Drive</name>
 			<range min="0" max="3"/>
 		</port>
 
 		<!-- filter control -->
 
 		<port label="filt1_type" dir="input" type="control" hint="integer,default_0">
-			<name>Filt1 type (0=none, 1=LP, 2=HP, 3=BP, 4=BR, 5=AP)</name>
+			<name>Filt1 Type (0=none, 1=LP, 2=HP, 3=BP, 4=BR, 5=AP)</name>
 			<range min="0" max="5"/>
 		</port>
 
 		<port label="filt1_freq" dir="input" type="control" hint="default_440">
-			<name>Filt1 freq</name>
+			<name>Filt1 Freq</name>
 			<range min="0" max="8000"/>
 		</port>
 
 		<port label="filt1_q" dir="input" type="control" hint="default_0">
-			<name>Filt1 q</name>
+			<name>Filt1 Q</name>
 			<range min="0" max="1"/>
 		</port>
 
 		<port label="filt1_res" dir="input" type="control" hint="default_0">
-			<name>Filt1 resonance</name>
+			<name>Filt1 Resonance</name>
 			<range min="0" max="1"/>
 		</port>
 
 		<port label="filt1_lfo1" dir="input" type="control" hint="default_0">
-			<name>Filt1 LFO1 level</name>
+			<name>Filt1 LFO1 Level</name>
 			<range min="-500" max="500"/>
 		</port>
 
 		<port label="filt1_lfo2" dir="input" type="control" hint="default_0">
-			<name>Filt1 LFO2 level</name>
+			<name>Filt1 LFO2 Level</name>
 			<range min="-500" max="500"/>
 		</port>
 
 		<port label="filt2_type" dir="input" type="control" hint="integer,default_0">
-			<name>Filt2 type (0=none, 1=LP, 2=HP, 3=BP, 4=BR, 5=AP)</name>
+			<name>Filt2 Type (0=none, 1=LP, 2=HP, 3=BP, 4=BR, 5=AP)</name>
 			<range min="0" max="5"/>
 		</port>
 
 		<port label="filt2_freq" dir="input" type="control" hint="default_440">
-			<name>Filt2 freq</name>
+			<name>Filt2 Freq</name>
 			<range min="0" max="8000"/>
 		</port>
 
 		<port label="filt2_q" dir="input" type="control" hint="default_0">
-			<name>Filt2 q</name>
+			<name>Filt2 Q</name>
 			<range min="0" max="1"/>
 		</port>
 
 		<port label="filt2_res" dir="input" type="control" hint="default_0">
-			<name>Filt2 resonance</name>
+			<name>Filt2 Resonance</name>
 			<range min="0" max="1"/>
 		</port>
 
 		<port label="filt2_lfo1" dir="input" type="control" hint="default_0">
-			<name>Filt2 LFO1 level</name>
+			<name>Filt2 LFO1 Level</name>
 			<range min="-500" max="500"/>
 		</port>
 
 		<port label="filt2_lfo2" dir="input" type="control" hint="default_0">
-			<name>Filt2 LFO2 level</name>
+			<name>Filt2 LFO2 Level</name>
 			<range min="-500" max="500"/>
 		</port>
 
 		<port label="filt3_type" dir="input" type="control" hint="integer,default_0">
-			<name>Filt3 type (0=none, 1=LP, 2=HP, 3=BP, 4=BR, 5=AP)</name>
+			<name>Filt3 Type (0=none, 1=LP, 2=HP, 3=BP, 4=BR, 5=AP)</name>
 			<range min="0" max="5"/>
 		</port>
 
 		<port label="filt3_freq" dir="input" type="control" hint="default_440">
-			<name>Filt3 freq</name>
+			<name>Filt3 Freq</name>
 			<range min="0" max="8000"/>
 		</port>
 
 		<port label="filt3_q" dir="input" type="control" hint="default_0">
-			<name>Filt3 q</name>
+			<name>Filt3 Q</name>
 			<range min="0" max="1"/>
 		</port>
 
 		<port label="filt3_res" dir="input" type="control" hint="default_0">
-			<name>Filt3 resonance</name>
+			<name>Filt3 Resonance</name>
 			<range min="0" max="1"/>
 		</port>
 
 		<port label="filt3_lfo1" dir="input" type="control" hint="default_0">
-			<name>Filt3 LFO1 level</name>
+			<name>Filt3 LFO1 Level</name>
 			<range min="-500" max="500"/>
 		</port>
 
 		<port label="filt3_lfo2" dir="input" type="control" hint="default_0">
-			<name>Filt3 LFO2 level</name>
+			<name>Filt3 LFO2 Level</name>
 			<range min="-500" max="500"/>
 		</port>
 
 		<!-- delay control -->
 
 		<port label="dela1_length" dir="input" type="control" hint="default_0">
-			<name>Delay1 length (s)</name>
+			<name>Delay1 Length (s)</name>
 			<range min="0" max="2"/>
 		</port>
 
 		<port label="dela1_fb" dir="input" type="control" hint="default_0">
-			<name>Delay1 feedback</name>
+			<name>Delay1 Feedback</name>
 			<range min="0" max="1"/>
 		</port>
 
 		<port label="dela1_wet" dir="input" type="control" hint="default_0">
-			<name>Delay1 wetness</name>
+			<name>Delay1 Wetness</name>
 			<range min="0" max="1"/>
 		</port>
 
 		<port label="dela2_length" dir="input" type="control" hint="default_0">
-			<name>Delay2 length (s)</name>
+			<name>Delay2 Length (s)</name>
 			<range min="0" max="2"/>
 		</port>
 
 		<port label="dela2_fb" dir="input" type="control" hint="default_0">
-			<name>Delay2 feedback</name>
+			<name>Delay2 Feedback</name>
 			<range min="0" max="1"/>
 		</port>
 
 		<port label="dela2_wet" dir="input" type="control" hint="default_0">
-			<name>Delay2 wetness</name>
+			<name>Delay2 Wetness</name>
 			<range min="0" max="1"/>
 		</port>
 
 		<port label="dela3_length" dir="input" type="control" hint="default_0">
-			<name>Delay3 length (s)</name>
+			<name>Delay3 Length (s)</name>
 			<range min="0" max="2"/>
 		</port>
 
 		<port label="dela3_fb" dir="input" type="control" hint="default_0">
-			<name>Delay3 feedback</name>
+			<name>Delay3 Feedback</name>
 			<range min="0" max="1"/>
 		</port>
 
 		<port label="dela3_wet" dir="input" type="control" hint="default_0">
-			<name>Delay3 wetness</name>
+			<name>Delay3 Wetness</name>
 			<range min="0" max="1"/>
 		</port>
 
 		<!-- mixer2 -->
 
 		<port label="band1_gain_db" dir="input" type="control" hint="default_0">
-			<name>Band 1 gain (dB)</name>
+			<name>Band 1 Gain (dB)</name>
 			<range min="-70" max="+20"/>
 		</port>
 
 		<port label="band2_gain_db" dir="input" type="control" hint="default_0">
-			<name>Band 2 gain (dB)</name>
+			<name>Band 2 Gain (dB)</name>
 			<range min="-70" max="+20"/>
 		</port>
 
 		<port label="band3_gain_db" dir="input" type="control" hint="default_0">
-			<name>Band 3 gain (dB)</name>
+			<name>Band 3 Gain (dB)</name>
 			<range min="-70" max="+20"/>
 		</port>
 

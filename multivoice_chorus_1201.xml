@@ -151,17 +151,17 @@ plugin_data->delay_pos = delay_pos;
     ]]></callback>
 
     <port label="voices" dir="input" type="control" hint="integer,default_1">
-      <name>Number of voices</name>
+      <name>Number of Voices</name>
       <range min="1" max="8"/>
     </port>
 
     <port label="delay_base" dir="input" type="control" hint="default_minimum">
-      <name>Delay base (ms)</name>
+      <name>Delay Base (ms)</name>
       <range min="10" max="40"/>
     </port>
 
     <port label="voice_spread" dir="input" type="control" hint="default_low">
-      <name>Voice separation (ms)</name>
+      <name>Voice Separation (ms)</name>
       <range min="0" max="2"/>
       <p>The individual voices can either be running at the same base delay (set this to zero) or staggered.</p>
       <p>Setting this to non-zero values can make the output sound richer, but will make it sound grainy with some type of signal.</p>
@@ -174,13 +174,13 @@ plugin_data->delay_pos = delay_pos;
     </port>
 
     <port label="law_freq" dir="input" type="control" hint="default_low">
-      <name>LFO frequency (Hz)</name>
+      <name>LFO Frequency (Hz)</name>
       <range min="2" max="30"/>
       <p>The frequency that the detune effect will be modulated at. A matter of taste, for most types of input lower will be more subtle.</p>
     </port>
 
     <port label="attendb" dir="input" type="control" hint="default_0">
-      <name>Output attenuation (dB)</name>
+      <name>Output Attenuation (dB)</name>
       <range min="-20" max="0"/>
       <p>With large numbers of voices the output can become too high, so use this to trim the amplitude to a more helpful level.</p>
     </port>

@@ -96,7 +96,7 @@
   </global>
 
   <plugin label="imp" id="1199" class="SpectralPlugin">
-    <name>Impulse convolver</name>
+    <name>Impulse Convolver</name>
     <p><![CDATA[
     This is a convolver for a set of fairly short impulses.
 
@@ -280,7 +280,7 @@
     </port>
 
     <port label="high_lat" dir="input" type="control" hint="integer,default_0">
-      <name>High latency mode</name>
+      <name>High Latency Mode</name>
       <p>If you are running with blocks that are not whole powers of two long, or you are hearing distortion, try changing this to 1.</p>
       <range min="0" max="1"/>
     </port>
@@ -300,7 +300,7 @@
     </port>
 
     <port label="latency" dir="output" type="control">
-      <name>latency</name>
+      <name>Latency</name>
     </port>
 
     <instance-data label="impulse_freq" type="fftw_real **" />

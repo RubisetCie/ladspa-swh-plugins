@@ -161,12 +161,12 @@
     ]]></callback>
 
     <port label="lfo_rate" dir="input" type="control" hint="default_low">
-      <name>LFO rate (Hz)</name>
+      <name>LFO Rate (Hz)</name>
       <range min="0" max="100" />
     </port>
 
     <port label="lfo_depth" dir="input" type="control" hint="default_low">
-      <name>LFO depth</name>
+      <name>LFO Depth</name>
       <range min="0" max="1" />
     </port>
 
@@ -197,7 +197,7 @@
   </plugin>
 
   <plugin label="fourByFourPole" id="1218" class="AllpassPlugin">
-    <name>4 x 4 pole allpass</name>
+    <name>All-Pass 4x4 Pole</name>
 
     <callback event="instantiate"><![CDATA[
       ap = calloc(16, sizeof(allpass));
@@ -338,7 +338,7 @@
   </plugin>
 
   <plugin label="autoPhaser" id="1219" class="PhaserPlugin">
-    <name>Auto phaser</name>
+    <name>Auto Phaser</name>
 
     <callback event="instantiate"><![CDATA[
       ap = calloc(6, sizeof(allpass));
@@ -410,17 +410,17 @@
     ]]></callback>
 
     <port label="attack_p" dir="input" type="control" hint="default_low">
-      <name>Attack time (s)</name>
+      <name>Attack Time (s)</name>
       <range min="0" max="1" />
     </port>
 
     <port label="decay_p" dir="input" type="control" hint="default_low">
-      <name>Decay time (s)</name>
+      <name>Decay Time (s)</name>
       <range min="0" max="1" />
     </port>
 
     <port label="depth_p" dir="input" type="control" hint="default_low">
-      <name>Modulation depth</name>
+      <name>Modulation Depth</name>
       <range min="0" max="1" />
     </port>
 
