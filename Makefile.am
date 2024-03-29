@@ -14,7 +14,7 @@ plugin_LTLIBRARIES = \
 	surround_encoder_1401.la \
 	delayorama_1402.la dyson_compress_1403.la crossover_dist_1404.la \
 	valve_rect_1405.la split_1406.la alias_1407.la \
-	satan_maximiser_1408.la karaoke_1409.la gate_1410.la \
+	satan_maximiser_1408.la karaoke_1409.la gate_1921.la \
 	comb_splitter_1411.la wave_terrain_1412.la \
 	hard_limiter_1413.la smooth_decimate_1414.la fm_osc_1415.la \
 	analogue_osc_1416.la rate_shifter_1417.la freq_tracker_1418.la \

@@ -401,6 +401,10 @@ msgstr ""
 msgid "HF key filter (Hz)"
 msgstr ""
 
+#: gate_1921.xml:130
+msgid "Key level (dB)"
+msgstr ""
+
 #: gate_1410.xml:188
 msgid "Threshold (dB)"
 msgstr ""
@@ -423,6 +427,10 @@ msgstr ""
 
 #: gate_1410.xml:238
 msgid "Output select (-1 = key listen, 0 = gate, 1 = bypass)"
+msgstr ""
+
+#: gate_1921.xml:130
+msgid "Gate Stereo"
 msgstr ""
 
 #: giant_flange_1437.xml:183

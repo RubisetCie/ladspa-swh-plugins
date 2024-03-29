@@ -186,7 +186,7 @@
   </plugin>
 
   <plugin label="stereo_gate" id="1922" class="GatePlugin">
-    <name>Stereo Gate</name>
+    <name>Gate Stereo</name>
     <p>Derived from Steve Harris' gate plugin</p>
 
     <callback event="instantiate"><![CDATA[
