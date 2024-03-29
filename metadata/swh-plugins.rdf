@@ -20,7 +20,7 @@
 
   <ladspa:DelayPlugin rdf:about="&ladspa;1895">
     <dc:creator>Andy Wingo &lt;wingo at pobox dot com&gt;</dc:creator>
-    <dc:title>Allpass delay line, noninterpolating</dc:title>
+    <dc:title>All-Pass Delay Line, Non-Interpolating</dc:title>
     <ladspa:hasPort>
       <ladspa:InputControlPort rdf:about="&ladspa;1895.3" ladspa:hasLabel="max_delay" />
     </ladspa:hasPort>
@@ -34,7 +34,7 @@
 
   <ladspa:DelayPlugin rdf:about="&ladspa;1896">
     <dc:creator>Andy Wingo &lt;wingo at pobox dot com&gt;</dc:creator>
-    <dc:title>Allpass delay line, linear interpolation</dc:title>
+    <dc:title>All-Pass Delay Line, Linear Interpolation</dc:title>
     <ladspa:hasPort>
       <ladspa:InputControlPort rdf:about="&ladspa;1896.3" ladspa:hasLabel="max_delay" />
     </ladspa:hasPort>
@@ -48,7 +48,7 @@
 
   <ladspa:DelayPlugin rdf:about="&ladspa;1897">
     <dc:creator>Andy Wingo &lt;wingo at pobox dot com&gt;</dc:creator>
-    <dc:title>Allpass delay line, cubic spline interpolation</dc:title>
+    <dc:title>All-Pass Delay Line, Cubic Spline Interpolation</dc:title>
     <ladspa:hasPort>
       <ladspa:InputControlPort rdf:about="&ladspa;1897.3" ladspa:hasLabel="max_delay" />
     </ladspa:hasPort>
@@ -62,7 +62,7 @@
 
   <ladspa:PitchPlugin rdf:about="&ladspa;1433">
     <dc:creator>Steve Harris &lt;steve@plugin.org.uk&gt;</dc:creator>
-    <dc:title>AM pitchshifter</dc:title>
+    <dc:title>AM Pitch-Shifter</dc:title>
     <ladspa:hasPort>
       <ladspa:InputControlPort rdf:about="&ladspa;1433.1" ladspa:hasLabel="enabled" />
     </ladspa:hasPort>
@@ -82,7 +82,7 @@
 
   <ladspa:AmplifierPlugin rdf:about="&ladspa;1181">
     <dc:creator>Steve Harris &lt;steve@plugin.org.uk&gt;</dc:creator>
-    <dc:title>Simple amplifier</dc:title>
+    <dc:title>Simple Amplifier</dc:title>
     <ladspa:hasPort>
       <ladspa:InputControlPort rdf:about="&ladspa;1181.1" ladspa:hasLabel="gain" />
     </ladspa:hasPort>
@@ -107,7 +107,7 @@
 
   <ladspa:BandpassPlugin rdf:about="&ladspa;1893">
     <dc:creator>Alexander Ehlert &lt;mag@glame.de&gt;</dc:creator>
-    <dc:title>Glame Bandpass Analog Filter</dc:title>
+    <dc:title>Glame Band-Pass Analog Filter</dc:title>
     <ladspa:hasPort>
       <ladspa:InputControlPort rdf:about="&ladspa;1893.1" ladspa:hasLabel="center" />
     </ladspa:hasPort>
@@ -118,7 +118,7 @@
 
   <ladspa:BandpassPlugin rdf:about="&ladspa;1892">
     <dc:creator>Alexander Ehlert &lt;mag@glame.de&gt;</dc:creator>
-    <dc:title>Glame Bandpass Filter</dc:title>
+    <dc:title>Glame Band-Pass Filter</dc:title>
     <ladspa:hasPort>
       <ladspa:InputControlPort rdf:about="&ladspa;1892.1" ladspa:hasLabel="center" />
     </ladspa:hasPort>
@@ -132,7 +132,7 @@
 
   <ladspa:SpectralPlugin rdf:about="&ladspa;1431">
     <dc:creator>Steve Harris &lt;steve@plugin.org.uk&gt;</dc:creator>
-    <dc:title>Bode frequency shifter</dc:title>
+    <dc:title>Bode Frequency Shifter</dc:title>
     <ladspa:hasPort>
       <ladspa:InputControlPort rdf:about="&ladspa;1431.1" ladspa:hasLabel="shift" />
     </ladspa:hasPort>
@@ -143,7 +143,7 @@
 
   <ladspa:SpectralPlugin rdf:about="&ladspa;1432">
     <dc:creator>Steve Harris &lt;steve@plugin.org.uk&gt;</dc:creator>
-    <dc:title>Bode frequency shifter (CV)</dc:title>
+    <dc:title>Bode Frequency Shifter (CV)</dc:title>
     <ladspa:hasPort>
       <ladspa:InputControlPort rdf:about="&ladspa;1432.1" ladspa:hasLabel="shift_b" />
     </ladspa:hasPort>
@@ -160,7 +160,7 @@
 
   <ladspa:BandpassPlugin rdf:about="&ladspa;1902">
     <dc:creator>Alexander Ehlert &lt;mag@glame.de&gt;</dc:creator>
-    <dc:title>Glame Butterworth X-over Filter</dc:title>
+    <dc:title>Glame Butterworth X-Over Filter</dc:title>
     <ladspa:hasPort>
       <ladspa:InputControlPort rdf:about="&ladspa;1902.1" ladspa:hasLabel="cutoff" />
     </ladspa:hasPort>
@@ -171,7 +171,7 @@
 
   <ladspa:LowpassPlugin rdf:about="&ladspa;1903">
     <dc:creator>Alexander Ehlert &lt;mag@glame.de&gt;</dc:creator>
-    <dc:title>GLAME Butterworth Lowpass</dc:title>
+    <dc:title>Glame Butterworth Low-Pass</dc:title>
     <ladspa:hasPort>
       <ladspa:InputControlPort rdf:about="&ladspa;1903.1" ladspa:hasLabel="cutoff" />
     </ladspa:hasPort>
@@ -182,7 +182,7 @@
 
   <ladspa:HighpassPlugin rdf:about="&ladspa;1904">
     <dc:creator>Alexander Ehlert &lt;mag@glame.de&gt;</dc:creator>
-    <dc:title>GLAME Butterworth Highpass</dc:title>
+    <dc:title>Glame Butterworth High-Pass</dc:title>
     <ladspa:hasPort>
       <ladspa:InputControlPort rdf:about="&ladspa;1904.1" ladspa:hasLabel="cutoff" />
     </ladspa:hasPort>
@@ -193,7 +193,7 @@
 
   <ladspa:DistortionPlugin rdf:about="&ladspa;1430">
     <dc:creator>Steve Harris &lt;steve@plugin.org.uk&gt;</dc:creator>
-    <dc:title>Chebyshev distortion</dc:title>
+    <dc:title>Chebyshev Distortion</dc:title>
     <ladspa:hasPort>
       <ladspa:InputControlPort rdf:about="&ladspa;1430.1" ladspa:hasLabel="dist" />
     </ladspa:hasPort>
@@ -212,7 +212,7 @@
 
   <ladspa:DelayPlugin rdf:about="&ladspa;1889">
     <dc:creator>Andy Wingo &lt;wingo at pobox dot com&gt;</dc:creator>
-    <dc:title>Comb delay line, noninterpolating</dc:title>
+    <dc:title>Comb Delay Line, Non-Interpolating</dc:title>
     <ladspa:hasPort>
       <ladspa:InputControlPort rdf:about="&ladspa;1889.3" ladspa:hasLabel="max_delay" />
     </ladspa:hasPort>
@@ -226,7 +226,7 @@
 
   <ladspa:DelayPlugin rdf:about="&ladspa;1887">
     <dc:creator>Andy Wingo &lt;wingo at pobox dot com&gt;</dc:creator>
-    <dc:title>Comb delay line, linear interpolation</dc:title>
+    <dc:title>Comb Delay Line, Linear Interpolation</dc:title>
     <ladspa:hasPort>
       <ladspa:InputControlPort rdf:about="&ladspa;1887.3" ladspa:hasLabel="max_delay" />
     </ladspa:hasPort>
@@ -240,7 +240,7 @@
 
   <ladspa:DelayPlugin rdf:about="&ladspa;1888">
     <dc:creator>Andy Wingo &lt;wingo at pobox dot com&gt;</dc:creator>
-    <dc:title>Comb delay line, cubic spline interpolation</dc:title>
+    <dc:title>Comb Delay Line, Cubic Spline Interpolation</dc:title>
     <ladspa:hasPort>
       <ladspa:InputControlPort rdf:about="&ladspa;1888.3" ladspa:hasLabel="max_delay" />
     </ladspa:hasPort>
@@ -270,7 +270,7 @@
 
   <ladspa:DistortionPlugin rdf:about="&ladspa;1404">
     <dc:creator>Steve Harris &lt;steve@plugin.org.uk&gt;</dc:creator>
-    <dc:title>Crossover distortion</dc:title>
+    <dc:title>Crossover Distortion</dc:title>
     <ladspa:hasPort>
       <ladspa:InputControlPort rdf:about="&ladspa;1404.1" ladspa:hasLabel="amp" />
     </ladspa:hasPort>
@@ -298,7 +298,7 @@
 
   <ladspa:UtilityPlugin rdf:about="&ladspa;1886">
     <dc:creator>Andy Wingo &lt;wingo at pobox dot com&gt;</dc:creator>
-    <dc:title>Exponential signal decay</dc:title>
+    <dc:title>Exponential Signal Decay</dc:title>
     <ladspa:hasPort>
       <ladspa:InputControlPort rdf:about="&ladspa;1886.3" ladspa:hasLabel="decay_time" />
     </ladspa:hasPort>
@@ -322,7 +322,7 @@
 
   <ladspa:DelayPlugin rdf:about="&ladspa;1898">
     <dc:creator>Andy Wingo &lt;wingo at pobox dot com&gt;</dc:creator>
-    <dc:title>Simple delay line, noninterpolating</dc:title>
+    <dc:title>Simple Delay Line, Non-Interpolating</dc:title>
     <ladspa:hasPort>
       <ladspa:InputControlPort rdf:about="&ladspa;1898.3" ladspa:hasLabel="max_delay" />
     </ladspa:hasPort>
@@ -333,7 +333,7 @@
 
   <ladspa:DelayPlugin rdf:about="&ladspa;1899">
     <dc:creator>Andy Wingo &lt;wingo at pobox dot com&gt;</dc:creator>
-    <dc:title>Simple delay line, linear interpolation</dc:title>
+    <dc:title>Simple Delay Line, Linear Interpolation</dc:title>
     <ladspa:hasPort>
       <ladspa:InputControlPort rdf:about="&ladspa;1899.3" ladspa:hasLabel="max_delay" />
     </ladspa:hasPort>
@@ -344,7 +344,7 @@
 
   <ladspa:DelayPlugin rdf:about="&ladspa;1900">
     <dc:creator>Andy Wingo &lt;wingo at pobox dot com&gt;</dc:creator>
-    <dc:title>Simple delay line, cubic spline interpolation</dc:title>
+    <dc:title>Simple Delay Line, Cubic Spline Interpolation</dc:title>
     <ladspa:hasPort>
       <ladspa:InputControlPort rdf:about="&ladspa;1900.3" ladspa:hasLabel="max_delay" />
     </ladspa:hasPort>
@@ -468,7 +468,7 @@
 
   <ladspa:EQPlugin rdf:about="&ladspa;1907">
     <dc:creator>Steve Harris &lt;steve@plugin.org.uk&gt;</dc:creator>
-    <dc:title>DJ EQ (mono)</dc:title>
+    <dc:title>DJ Equalizer (Mono)</dc:title>
     <ladspa:hasPort>
       <ladspa:InputControlPort rdf:about="&ladspa;1907.1" ladspa:hasLabel="lo" />
     </ladspa:hasPort>
@@ -485,7 +485,7 @@
 
   <ladspa:EQPlugin rdf:about="&ladspa;1901">
     <dc:creator>Steve Harris &lt;steve@plugin.org.uk&gt;</dc:creator>
-    <dc:title>DJ EQ</dc:title>
+    <dc:title>DJ Equalizer</dc:title>
     <ladspa:hasPort>
       <ladspa:InputControlPort rdf:about="&ladspa;1901.1" ladspa:hasLabel="lo" />
     </ladspa:hasPort>
@@ -502,7 +502,7 @@
 
   <ladspa:FlangerPlugin rdf:about="&ladspa;1438">
     <dc:creator>Steve Harris &lt;steve@plugin.org.uk&gt;</dc:creator>
-    <dc:title>DJ flanger</dc:title>
+    <dc:title>DJ Flanger</dc:title>
     <ladspa:hasPort>
       <ladspa:InputControlPort rdf:about="&ladspa;1438.1" ladspa:hasLabel="sync" />
     </ladspa:hasPort>
@@ -519,7 +519,7 @@
 
   <ladspa:CompressorPlugin rdf:about="&ladspa;1403">
     <dc:creator>Steve Harris &lt;steve@plugin.org.uk&gt;</dc:creator>
-    <dc:title>Dyson compressor</dc:title>
+    <dc:title>Dyson Compressor</dc:title>
     <ladspa:hasPort>
       <ladspa:InputControlPort rdf:about="&ladspa;1403.1" ladspa:hasLabel="peak_limit" />
     </ladspa:hasPort>
@@ -547,7 +547,7 @@
 
   <ladspa:LimiterPlugin rdf:about="&ladspa;1913">
     <dc:creator>Steve Harris &lt;steve@plugin.org.uk&gt;</dc:creator>
-    <dc:title>Fast Lookahead limiter</dc:title>
+    <dc:title>Fast Lookahead Limiter</dc:title>
     <ladspa:hasPort>
       <ladspa:InputControlPort rdf:about="&ladspa;1913.1" ladspa:hasLabel="ingain" />
     </ladspa:hasPort>
@@ -592,7 +592,7 @@
 
   <ladspa:DistortionPlugin rdf:about="&ladspa;1213">
     <dc:creator>Steve Harris &lt;steve@plugin.org.uk&gt;</dc:creator>
-    <dc:title>Foldover distortion</dc:title>
+    <dc:title>Foldover Distortion</dc:title>
     <ladspa:hasPort>
       <ladspa:InputControlPort rdf:about="&ladspa;1213.1" ladspa:hasLabel="drive_p" />
     </ladspa:hasPort>
@@ -603,7 +603,7 @@
 
   <ladspa:DistortionPlugin rdf:about="&ladspa;1196">
     <dc:creator>Steve Harris &lt;steve@plugin.org.uk&gt;</dc:creator>
-    <dc:title>Fast overdrive</dc:title>
+    <dc:title>Fast Overdrive</dc:title>
     <ladspa:hasPort>
       <ladspa:InputControlPort rdf:about="&ladspa;1196.1" ladspa:hasLabel="drive" />
     </ladspa:hasPort>
@@ -611,7 +611,7 @@
 
   <ladspa:FrequencyMeterPlugin rdf:about="&ladspa;1418">
     <dc:creator>Steve Harris &lt;steve@plugin.org.uk&gt;</dc:creator>
-    <dc:title>Frequency tracker</dc:title>
+    <dc:title>Frequency Tracker</dc:title>
     <ladspa:hasPort>
       <ladspa:InputControlPort rdf:about="&ladspa;1418.1" ladspa:hasLabel="speed" />
     </ladspa:hasPort>
@@ -680,7 +680,7 @@
 
   <ladspa:GatePlugin rdf:about="&ladspa;1922">
     <dc:creator>Steve Harris &lt;steve@plugin.org.uk&gt;</dc:creator>
-    <dc:title>Stereo Gate</dc:title>
+    <dc:title>Gate Stereo</dc:title>
     <ladspa:hasPort>
       <ladspa:InputControlPort rdf:about="&ladspa;1922.1" ladspa:hasLabel="lf_fc" />
     </ladspa:hasPort>
@@ -712,7 +712,7 @@
 
   <ladspa:FlangerPlugin rdf:about="&ladspa;1437">
     <dc:creator>Steve Harris &lt;steve@plugin.org.uk&gt;</dc:creator>
-    <dc:title>Giant flange</dc:title>
+    <dc:title>Giant Flanger</dc:title>
     <ladspa:hasPort>
       <ladspa:InputControlPort rdf:about="&ladspa;1437.1" ladspa:hasLabel="deldouble" />
     </ladspa:hasPort>
@@ -739,7 +739,7 @@
   <ladspa:SimulatorPlugin rdf:about="&ladspa;1424">
     <rdf:type rdf:resource="&ladspa;GeneratorPlugin"/>
     <dc:creator>Steve Harris &lt;steve@plugin.org.uk&gt;</dc:creator>
-    <dc:title>Gong model</dc:title>
+    <dc:title>Gong Model</dc:title>
     <ladspa:hasPort>
       <ladspa:InputControlPort rdf:about="&ladspa;1424.1" ladspa:hasLabel="damp_i" />
     </ladspa:hasPort>
@@ -964,7 +964,7 @@
 
   <ladspa:GeneratorPlugin rdf:about="&ladspa;1439">
     <dc:creator>Steve Harris &lt;steve@plugin.org.uk&gt;</dc:creator>
-    <dc:title>Gong beater</dc:title>
+    <dc:title>Gong Beater</dc:title>
     <ladspa:hasPort>
       <ladspa:InputControlPort rdf:about="&ladspa;1439.1" ladspa:hasLabel="imp_gain" />
     </ladspa:hasPort>
@@ -978,7 +978,7 @@
 
   <ladspa:DistortionPlugin rdf:about="&ladspa;1215">
     <dc:creator>Steve Harris &lt;steve@plugin.org.uk&gt;</dc:creator>
-    <dc:title>GSM simulator</dc:title>
+    <dc:title>GSM Simulator</dc:title>
     <ladspa:hasPort>
       <ladspa:InputControlPort rdf:about="&ladspa;1215.1" ladspa:hasLabel="drywet" />
     </ladspa:hasPort>
@@ -995,7 +995,7 @@
 
   <ladspa:ReverbPlugin rdf:about="&ladspa;1216">
     <dc:creator>Juhana Sadeharju &lt;kouhia at nic.funet.fi&gt;, LADSPAification by Steve Harris &lt;steve@plugin.org.uk&gt;</dc:creator>
-    <dc:title>GVerb</dc:title>
+    <dc:title>G-Verb</dc:title>
     <ladspa:hasPort>
       <ladspa:InputControlPort rdf:about="&ladspa;1216.1" ladspa:hasLabel="roomsize" />
     </ladspa:hasPort>
@@ -1036,7 +1036,7 @@
 
   <ladspa:GeneratorPlugin rdf:about="&ladspa;1220">
     <dc:creator>Steve Harris &lt;steve@plugin.org.uk&gt;</dc:creator>
-    <dc:title>Harmonic generator</dc:title>
+    <dc:title>Harmonic Generator</dc:title>
     <ladspa:hasPort>
       <ladspa:InputControlPort rdf:about="&ladspa;1220.1" ladspa:hasLabel="mag_1" />
     </ladspa:hasPort>
@@ -1550,7 +1550,7 @@
 
   <ladspa:HighpassPlugin rdf:about="&ladspa;1890">
     <dc:creator>Alexander Ehlert &lt;mag@glame.de&gt;</dc:creator>
-    <dc:title>Glame Highpass Filter</dc:title>
+    <dc:title>Glame High-Pass Filter</dc:title>
     <ladspa:hasPort>
       <ladspa:InputControlPort rdf:about="&ladspa;1890.1" ladspa:hasLabel="cutoff" />
     </ladspa:hasPort>
@@ -1561,7 +1561,7 @@
 
   <ladspa:UtilityPlugin rdf:about="&ladspa;1440">
     <dc:creator>Steve Harris &lt;steve@plugin.org.uk&gt;</dc:creator>
-    <dc:title>Hilbert transformer</dc:title>
+    <dc:title>Hilbert Transformer</dc:title>
     <ladspa:hasPort>
       <ladspa:OutputControlPort rdf:about="&ladspa;1440.4" ladspa:hasLabel="latency" />
     </ladspa:hasPort>
@@ -1569,7 +1569,7 @@
 
   <ladspa:SpectralPlugin rdf:about="&ladspa;1199">
     <dc:creator>Steve Harris &lt;steve@plugin.org.uk&gt;</dc:creator>
-    <dc:title>Impulse convolver</dc:title>
+    <dc:title>Impulse Convolver</dc:title>
     <ladspa:hasPort>
       <ladspa:InputControlPort rdf:about="&ladspa;1199.1" ladspa:hasLabel="impulse" />
     </ladspa:hasPort>
@@ -1586,7 +1586,7 @@
 
   <ladspa:UtilityPlugin rdf:about="&ladspa;1885">
     <dc:creator>Andy Wingo &lt;wingo at pobox dot com&gt;</dc:creator>
-    <dc:title>Nonbandlimited single-sample impulses (Frequency: Control)</dc:title>
+    <dc:title>Single-Sample Impulses Non-Band Limited (Frequency: Control)</dc:title>
     <ladspa:hasPort>
       <ladspa:InputControlPort rdf:about="&ladspa;1885.1" ladspa:hasLabel="frequency" />
     </ladspa:hasPort>
@@ -1607,7 +1607,7 @@
 
   <ladspa:UtilityPlugin rdf:about="&ladspa;1914">
     <dc:creator>Steve Harris &lt;steve@plugin.org.uk&gt;</dc:creator>
-    <dc:title>Artificial latency</dc:title>
+    <dc:title>Artificial Latency</dc:title>
     <ladspa:hasPort>
       <ladspa:InputControlPort rdf:about="&ladspa;1914.1" ladspa:hasLabel="delay" />
     </ladspa:hasPort>
@@ -1715,7 +1715,7 @@
 
   <ladspa:LowpassPlugin rdf:about="&ladspa;1891">
     <dc:creator>Alexander Ehlert &lt;mag@glame.de&gt;</dc:creator>
-    <dc:title>Glame Lowpass Filter</dc:title>
+    <dc:title>Glame Low-Pass Filter</dc:title>
     <ladspa:hasPort>
       <ladspa:InputControlPort rdf:about="&ladspa;1891.1" ladspa:hasLabel="cutoff" />
     </ladspa:hasPort>
@@ -1761,7 +1761,7 @@
 
   <ladspa:MultiEQPlugin rdf:about="&ladspa;1197">
     <dc:creator>Steve Harris &lt;steve@plugin.org.uk&gt;</dc:creator>
-    <dc:title>Multiband EQ</dc:title>
+    <dc:title>Multi-Band Equalizer</dc:title>
     <ladspa:hasPort>
       <ladspa:InputControlPort rdf:about="&ladspa;1197.1" ladspa:hasLabel="band_1" />
     </ladspa:hasPort>
@@ -1893,7 +1893,7 @@
 
   <ladspa:DelayPlugin rdf:about="&ladspa;1419">
     <dc:creator>Steve Harris &lt;steve@plugin.org.uk&gt;</dc:creator>
-    <dc:title>Modulatable delay</dc:title>
+    <dc:title>Modulable Delay</dc:title>
     <ladspa:hasPort>
       <ladspa:InputControlPort rdf:about="&ladspa;1419.1" ladspa:hasLabel="base" />
     </ladspa:hasPort>
@@ -1924,7 +1924,7 @@
 
   <ladspa:NotchPlugin rdf:about="&ladspa;1894">
     <dc:creator>Alexander Ehlert &lt;mag@glame.de&gt;</dc:creator>
-    <dc:title>Mag's Notch Filter</dc:title>
+    <dc:title>Notch Filter</dc:title>
     <ladspa:hasPort>
       <ladspa:InputControlPort rdf:about="&ladspa;1894.1" ladspa:hasLabel="center" />
     </ladspa:hasPort>
@@ -1955,7 +1955,7 @@
 
   <ladspa:AllpassPlugin rdf:about="&ladspa;1218">
     <dc:creator>Steve Harris &lt;steve@plugin.org.uk&gt;</dc:creator>
-    <dc:title>4 x 4 pole allpass</dc:title>
+    <dc:title>All-Pass 4x4 Pole</dc:title>
     <ladspa:hasPort>
       <ladspa:InputControlPort rdf:about="&ladspa;1218.1" ladspa:hasLabel="f0" />
     </ladspa:hasPort>
@@ -1984,7 +1984,7 @@
 
   <ladspa:PhaserPlugin rdf:about="&ladspa;1219">
     <dc:creator>Steve Harris &lt;steve@plugin.org.uk&gt;</dc:creator>
-    <dc:title>Auto phaser</dc:title>
+    <dc:title>Auto Phaser</dc:title>
     <ladspa:hasPort>
       <ladspa:InputControlPort rdf:about="&ladspa;1219.1" ladspa:hasLabel="attack_p" />
     </ladspa:hasPort>
@@ -2015,7 +2015,7 @@
 
   <ladspa:PitchPlugin rdf:about="&ladspa;1194">
     <dc:creator>Steve Harris &lt;steve@plugin.org.uk&gt;</dc:creator>
-    <dc:title>Higher Quality Pitch Scaler</dc:title>
+    <dc:title>Pitch Scaler (Higher Quality)</dc:title>
     <ladspa:hasPort>
       <ladspa:InputControlPort rdf:about="&ladspa;1194.1" ladspa:hasLabel="mult" />
     </ladspa:hasPort>
@@ -2026,7 +2026,7 @@
 
   <ladspa:ReverbPlugin rdf:about="&ladspa;1423">
     <dc:creator>Steve Harris &lt;steve@plugin.org.uk&gt;</dc:creator>
-    <dc:title>Plate reverb</dc:title>
+    <dc:title>Plate Reverb</dc:title>
     <ladspa:hasPort>
       <ladspa:InputControlPort rdf:about="&ladspa;1423.1" ladspa:hasLabel="time" />
     </ladspa:hasPort>
@@ -2040,7 +2040,7 @@
 
   <ladspa:DistortionPlugin rdf:about="&ladspa;1910">
     <dc:creator>Steve Harris &lt;steve@plugin.org.uk&gt;</dc:creator>
-    <dc:title>Pointer cast distortion</dc:title>
+    <dc:title>Pointer Cast Distortion</dc:title>
     <ladspa:hasPort>
       <ladspa:InputControlPort rdf:about="&ladspa;1910.1" ladspa:hasLabel="cutoff" />
     </ladspa:hasPort>
@@ -2051,7 +2051,7 @@
 
   <ladspa:PitchPlugin rdf:about="&ladspa;1417">
     <dc:creator>Steve Harris &lt;steve@plugin.org.uk&gt;</dc:creator>
-    <dc:title>Rate shifter</dc:title>
+    <dc:title>Rate Shifter</dc:title>
     <ladspa:hasPort>
       <ladspa:InputControlPort rdf:about="&ladspa;1417.1" ladspa:hasLabel="rate" />
     </ladspa:hasPort>
@@ -2070,7 +2070,7 @@
 
   <ladspa:DelayPlugin rdf:about="&ladspa;1605">
     <dc:creator>Jesse Chappell &lt;jesse at essej dot net&gt;</dc:creator>
-    <dc:title>Reverse Delay (5s max)</dc:title>
+    <dc:title>Reverse Delay</dc:title>
     <ladspa:hasPort>
       <ladspa:InputControlPort rdf:about="&ladspa;1605.3" ladspa:hasLabel="delay_time" />
     </ladspa:hasPort>
@@ -2090,7 +2090,7 @@
 
   <ladspa:ModulatorPlugin rdf:about="&ladspa;1188">
     <dc:creator>Steve Harris &lt;steve@plugin.org.uk&gt;</dc:creator>
-    <dc:title>Ringmod with two inputs</dc:title>
+    <dc:title>Ringmod (Two Inputs)</dc:title>
     <ladspa:hasPort>
       <ladspa:InputControlPort rdf:about="&ladspa;1188.1" ladspa:hasLabel="depth" />
     </ladspa:hasPort>
@@ -2098,7 +2098,7 @@
 
   <ladspa:ModulatorPlugin rdf:about="&ladspa;1189">
     <dc:creator>Steve Harris &lt;steve@plugin.org.uk&gt;</dc:creator>
-    <dc:title>Ringmod with LFO</dc:title>
+    <dc:title>Ringmod (LFO)</dc:title>
     <ladspa:hasPort>
       <ladspa:InputControlPort rdf:about="&ladspa;1189.1" ladspa:hasLabel="depthp" />
     </ladspa:hasPort>
@@ -2237,7 +2237,7 @@
 
   <ladspa:CompressorPlugin rdf:about="&ladspa;1916">
     <dc:creator>Steve Harris &lt;steve@plugin.org.uk&gt;</dc:creator>
-    <dc:title>SC4 mono</dc:title>
+    <dc:title>SC4 Mono</dc:title>
     <ladspa:hasPort>
       <ladspa:InputControlPort rdf:about="&ladspa;1916.1" ladspa:hasLabel="rms_peak" />
     </ladspa:hasPort>
@@ -2301,7 +2301,7 @@
 
   <ladspa:WaveshaperPlugin rdf:about="&ladspa;1187">
     <dc:creator>Steve Harris &lt;steve@plugin.org.uk&gt;</dc:creator>
-    <dc:title>Wave shaper</dc:title>
+    <dc:title>Wave Shaper</dc:title>
     <ladspa:hasPort>
       <ladspa:InputControlPort rdf:about="&ladspa;1187.1" ladspa:hasLabel="shapep" />
     </ladspa:hasPort>
@@ -2310,7 +2310,7 @@
   <ladspa:TimePlugin rdf:about="&ladspa;1210">
     <rdf:type rdf:resource="&ladspa;DistortionPlugin"/>
     <dc:creator>Steve Harris &lt;steve@plugin.org.uk&gt;</dc:creator>
-    <dc:title>Signal sifter</dc:title>
+    <dc:title>Signal Sifter</dc:title>
     <ladspa:hasPort>
       <ladspa:InputControlPort rdf:about="&ladspa;1210.1" ladspa:hasLabel="size" />
     </ladspa:hasPort>
@@ -2318,7 +2318,7 @@
 
   <ladspa:OscillatorPlugin rdf:about="&ladspa;1881">
     <dc:creator>Steve Harris &lt;steve@plugin.org.uk&gt;</dc:creator>
-    <dc:title>Sine + cosine oscillator</dc:title>
+    <dc:title>Sine and Cosine Oscillator</dc:title>
     <ladspa:hasPort>
       <ladspa:InputControlPort rdf:about="&ladspa;1881.1" ladspa:hasLabel="freq" />
     </ladspa:hasPort>
@@ -2329,7 +2329,7 @@
 
   <ladspa:ParaEQPlugin rdf:about="&ladspa;1203">
     <dc:creator>Steve Harris &lt;steve@plugin.org.uk&gt;</dc:creator>
-    <dc:title>Single band parametric</dc:title>
+    <dc:title>Single-Band Parametric</dc:title>
     <ladspa:hasPort>
       <ladspa:InputControlPort rdf:about="&ladspa;1203.1" ladspa:hasLabel="gain" />
     </ladspa:hasPort>
@@ -2343,7 +2343,7 @@
 
   <ladspa:WaveshaperPlugin rdf:about="&ladspa;1198">
     <dc:creator>Steve Harris &lt;steve@plugin.org.uk&gt;</dc:creator>
-    <dc:title>Sinus wavewrapper</dc:title>
+    <dc:title>Sinus Wave-Wrapper</dc:title>
     <ladspa:hasPort>
       <ladspa:InputControlPort rdf:about="&ladspa;1198.1" ladspa:hasLabel="wrap" />
     </ladspa:hasPort>
@@ -2362,7 +2362,7 @@
 
   <ladspa:UtilityPlugin rdf:about="&ladspa;1406">
     <dc:creator>Frank Neumann &lt;franky@users.sourceforge.net&gt;</dc:creator>
-    <dc:title>Mono to Stereo splitter</dc:title>
+    <dc:title>Mono to Stereo Splitter</dc:title>
   </ladspa:UtilityPlugin>
 
   <ladspa:UtilityPlugin rdf:about="&ladspa;1212">
@@ -2375,7 +2375,7 @@
 
   <ladspa:UtilityPlugin rdf:about="&ladspa;1401">
     <dc:creator>Steve Harris &lt;steve@plugin.org.uk&gt;</dc:creator>
-    <dc:title>Surround matrix encoder</dc:title>
+    <dc:title>Surround Matrix Encoder</dc:title>
   </ladspa:UtilityPlugin>
 
   <ladspa:FilterPlugin rdf:about="&ladspa;1214">
@@ -2487,7 +2487,7 @@
 
   <ladspa:DynamicsPlugin rdf:about="&ladspa;1206">
     <dc:creator>Steve Harris &lt;steve@plugin.org.uk&gt;</dc:creator>
-    <dc:title>Transient mangler</dc:title>
+    <dc:title>Transient Mangler</dc:title>
     <ladspa:hasPort>
       <ladspa:InputControlPort rdf:about="&ladspa;1206.1" ladspa:hasLabel="attack" />
     </ladspa:hasPort>
@@ -2498,7 +2498,7 @@
 
   <ladspa:ParaEQPlugin rdf:about="&ladspa;1204">
     <dc:creator>Steve Harris &lt;steve@plugin.org.uk&gt;</dc:creator>
-    <dc:title>Triple band parametric with shelves</dc:title>
+    <dc:title>Triple-Band Parametric (Shelves)</dc:title>
     <ladspa:hasPort>
       <ladspa:InputControlPort rdf:about="&ladspa;1204.1" ladspa:hasLabel="gain_L" />
     </ladspa:hasPort>
@@ -2628,7 +2628,7 @@
   <ladspa:DistortionPlugin rdf:about="&ladspa;1209">
     <rdf:type rdf:resource="&ladspa;SimulatorPlugin"/>
     <dc:creator>Steve Harris &lt;steve@plugin.org.uk&gt;</dc:creator>
-    <dc:title>Valve saturation</dc:title>
+    <dc:title>Valve Saturation</dc:title>
     <ladspa:hasPort>
       <ladspa:InputControlPort rdf:about="&ladspa;1209.1" ladspa:hasLabel="q_p" />
     </ladspa:hasPort>
@@ -2640,7 +2640,7 @@
   <ladspa:DistortionPlugin rdf:about="&ladspa;1405">
     <rdf:type rdf:resource="&ladspa;SimulatorPlugin"/>
     <dc:creator>Steve Harris &lt;steve@plugin.org.uk&gt;</dc:creator>
-    <dc:title>Valve rectifier</dc:title>
+    <dc:title>Valve Rectifier</dc:title>
     <ladspa:hasPort>
       <ladspa:InputControlPort rdf:about="&ladspa;1405.1" ladspa:hasLabel="sag" />
     </ladspa:hasPort>
@@ -2711,7 +2711,7 @@
 
   <ladspa:DistortionPlugin rdf:about="&ladspa;1905">
     <dc:creator>Steve Harris &lt;steve@plugin.org.uk&gt;</dc:creator>
-    <dc:title>VyNil (Vinyl Effect)</dc:title>
+    <dc:title>Vinyl Effect</dc:title>
     <ladspa:hasPort>
       <ladspa:InputControlPort rdf:about="&ladspa;1905.1" ladspa:hasLabel="year" />
     </ladspa:hasPort>
@@ -2752,7 +2752,7 @@
 
   <ladspa:UtilityPlugin rdf:about="&ladspa;1428">
     <dc:creator>Steve Harris &lt;steve@plugin.org.uk&gt;</dc:creator>
-    <dc:title>z-1</dc:title>
+    <dc:title>Z-1</dc:title>
   </ladspa:UtilityPlugin>
 
 </rdf:RDF>
